@@ -37,6 +37,16 @@ bibliography: library.bib
 
 ## Item Generation
 
+### Q-Distribution
+
+```{r}
+qmethod::make.distribution(nstat = 59, max.bin = 7)
+```
+
+### Plotting Items
+
+
+
 ## Field Work
 
 Participants were given the following prompt:
@@ -127,8 +137,9 @@ Important notes for **the investigators**:
 - Explain the procedure very carefully to the participants, and **show them pictures of the completed sorts**.
   Otherwise, it can be quite hard to understand the methodology.
   In particular, remind them that only the horizontal axis matters, what the extremes are, and that they must adhere to the forced distribution.
-- This procedure takes time and some quiet patience (60 minutes), as well as some space.
+- This procedure takes time and some quiet patience (~60 minutes), as well as some space.
   Plan accordingly.
+
 
 ## Analysis
 

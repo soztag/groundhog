@@ -45,6 +45,38 @@ qmethod::make.distribution(nstat = 59, max.bin = 7)
 
 ### Plotting Items
 
+```{r, eval=FALSE, include=FALSE}
+items <- readr::read_csv(file = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSkT1N44FpPcqAcAp1eChsHI0jlw-F0gqB7w1Sl4ksd6q3vNAoBbkjrx0rjlYc_7hhJiZ0uHvmxKRon/pub?gid=0&single=true&output=csv")
+readr::write_rds(x = items, path = "items.rds")
+```
+
+```{r plot-items, eval=FALSE, include=FALSE}
+raw_items <- readr::read_rds(path = "items.rds")
+items <- matrix(
+  data = as.matrix(raw_items[,c("english", "german")]),
+  nrow = nrow(raw_items),
+  dimnames = list(items = raw_items$shorthandle, languages = c("english", "ngerman"))
+)
+library(qmethod)
+qmethod::make.cards(
+  q.set = items,
+  study.language = "english", 
+  output.pdf = TRUE, 
+  babel.language = "english", 
+  show.handles = FALSE, 
+  duplex.double = TRUE, 
+  wording.font.size = "\\large",
+  file.name = "english")
+qmethod::make.cards(
+  q.set = items,
+  study.language = "ngerman", 
+  output.pdf = TRUE, 
+  babel.language = "ngerman", 
+  show.handles = FALSE, 
+  duplex.double = TRUE, 
+  wording.font.size = "\\large",
+  file.name = "german")
+```
 
 
 ## Field Work

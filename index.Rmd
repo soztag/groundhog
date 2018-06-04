@@ -39,6 +39,97 @@ bibliography: library.bib
 
 ## Field Work
 
+Participants were given the following prompt:
+
+> Imagine that, starting now, the next week will repeat itself once.
+> In a week, the whole universe will rewind to today, all changes are undone and memories erased.
+> You are the only person who knows this, and you alone will remember what happened during this week.
+> What would you do?
+>
+> Rank the following items according to your likelihood for enacting them in the next week.
+> Rank all activities highly which you like, even if you could not complete them all in the given time.
+>
+> Remember that whatever you do in the next seven days would be completely undone at the end of the week; only your memories remain.
+
+
+Or, in german:
+
+> Stelle Dir vor, dass sich die nächste Woche einmal wiederholt.
+> Am Ende der Woche dreht sich die Zeit zurück auf heute, alle Veränderungen sind revidiert und Erinnerungen gelöscht.
+> Du bist die einzige Person, die über diese Wiederholung weiß und nur Du kannst dich in Zukunft daran erinnern, was in der Woche passiert ist.
+>
+> Sortiere die folgenden Aktivitäten danach, wie wahrscheinlich Du sie in der Woche durchführen würdest.
+> Es ist nicht wichtig, ob Du die präferierten Aktivitäten auch alle schaffen könntest.
+>
+> Denke daran, dass alle Änderungen im Universum am Ende der Woche rückgängig gemacht werden; nur deine Erinnerungen bleiben.
+
+
+Participants were given the following sorting instructions:
+
+> 1. Choose a pseudonym, so that you can recognize your own datapoints in the results.
+    ![](img/pseudo.jpg)
+> 1. Read through all the items carefully. 
+     Make notes on the items if you like.
+> 2. Preliminarily sort the items in three piles:
+     1. Items you like.
+     2. Items you do not understand or are ambivalent about.
+     3. Items you dislike.
+     ![](img/presort.jpg)
+> 3. Rank-order the items according to how likely you are to do the described activities, from the right (likely to do) to the left (unlikely to do).
+      Start with items from the right (likely to do), continue with items from the left (unlikely to do), and finally fill in the middle (ambivalent).
+> 4. Consider your completed sort, and revise item positions if necessary.
+      ![](img/sort.jpg)
+> 5. Add comments to items you feel strongly about, or do not understand.
+> 6. Turn all items on their back (only showing a random string), and ask the investigator to take a picture of your completed sort.
+    ![](img/codes.jpg)
+
+
+Participants were reminded:
+
+> - There is no correct or consistent way to complete your Q sort; whatever you feel expresses your subjective view on the matter is correct. 
+>   This is not a test.
+> - Only the horizontal dimension (from left to right) matters; the vertical axis does not matter.
+  Items on top of one another merely express ties.
+> If you are ambivalent about an item or do not understand it, place it in the middle between the two extremes.
+  This is valuable information, too.
+> - You must place all items.
+> - You must adhere to the distribution.
+> - Only *relative* positions matter.
+    For example, you may feel positively about *more* than half of the items, and have only very few neutral or negative items.
+
+
+Important notes for **the investigators**:
+
+- Remember to sample a *diverse* group of people who are likely to display *different* viewpoints on the subject matter.
+- We are not going to gather *any* personal data.
+  Make sure not to pollute the gathered data with any information that might deanonymize your participants.
+  For example *do not* record their email adress on the cards, and make sure that their pseudonyms are properly anonymous.
+  If you want to email the results to the participants, store their contact information *separately* and securely, with no reference to the study.
+- **Make sure to test the photo you're taking at the end to record the sort**: 
+    - Are the item codes legible? 
+    - Is the lighting ok?
+    - Is the resolution high enough?
+    - Is the pseudonym card in the picture?
+    - Save redundant copies of these images.
+    - (If possible, delete date and location metadata from these images).
+- There may be a tradeoff in our study between a) getting deep, qualitative insights from observing and discussing the sorting behavior and b) avoiding social desirability biases.
+  Participants may not feel free to sort some items (e.g. anti-social and sexual), when they are closely observed, or know that the investigator (= you), will "know" their Q sort.
+  (For this reason, the item backs are marked with arbitrary codes for identification, so that participants never have to "show" their sorts to the investigators.)
+  It's not clear what we should do here, because on the other hand, we probably cannot produce proper anonymity in in-person sorts, and we may also want to closely observe and engage the participants.
+- Take the time to carefully discuss the sorting procedure with participants after they are done.
+  If you want to (see above caveat), also sit next to them while they sort and prompt them to explain their choices.
+  **Take notes!**
+- Remind participants to add feedback or any thoughts and comments to the items.
+  They can write them on the cards.
+  **Provide participants with pens or pencils.**
+- When you are preparing the cards, make sure that every participant has a complete set (and no duplicates). 
+  This can be quite difficult and requires *very* careful preparation (envelopes are useful).
+- Explain the procedure very carefully to the participants, and **show them pictures of the completed sorts**.
+  Otherwise, it can be quite hard to understand the methodology.
+  In particular, remind them that only the horizontal axis matters, what the extremes are, and that they must adhere to the forced distribution.
+- This procedure takes time and some quiet patience (60 minutes), as well as some space.
+  Plan accordingly.
+
 ## Analysis
 
 ## Interpretation

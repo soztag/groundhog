@@ -1,0 +1,48 @@
+---
+title: "Groundhog"
+author:
+  - name: "Patrick Hajjar"
+    affiliation: "Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)"
+  - name: "Maximilian Held"
+    affiliation: "Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)"
+  - name: "Ngoc Tuyet Nhung"
+    affiliation: "Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)"
+  - name: "Eleni Sarri"
+    affiliation: "Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)"
+  - name: "Valeria Scollo"
+    affiliation: "Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+bibliography: library.bib
+---
+
+<div class="jumbotron" style="color:white; background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7) ), url(img/murray.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+  <h2>Imagine you are in a time loop: What would you do?</h1>
+  <p>A Q study on a thought experiment.</p>
+  <p>
+    <span class="label label-info">
+      #GroundhogDay #rstats #QMethodology
+    </span>
+  </p>
+  <p><small><sub>
+    Image Credit: Groundhog Day (Columbia Pictures 1993), via [IMDB](https://www.imdb.com/title/tt0107048/)
+  </sub></small></p>
+</div>
+
+```{r, child="README.Rmd"}
+```
+
+---
+
+## Introduction
+
+## Item Generation
+
+## Field Work
+
+## Analysis
+
+## Interpretation
+
+## Conclusion
+
+## References

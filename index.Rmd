@@ -54,7 +54,7 @@ Participants were given the following prompt:
 
 Or, in German:
 
-> Stell Dir vor, dass sich die nächste Woche genau ein Mal wiederholt.
+> Stelle dir vor, dass sich die nächste Woche genau ein Mal wiederholt.
 > Am Ende der Woche dreht sich die Zeit zurück auf den heutigen Tag. Alle Veränderungen sind revidiert und Erinnerungen gelöscht.
 > Du bist die einzige Person, die über diese Wiederholung weiß und nur du kannst dich in Zukunft daran erinnern, was in der Woche passiert ist.
 >

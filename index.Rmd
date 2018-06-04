@@ -28,7 +28,7 @@ bibliography: library.bib
   </sub></small></p>
 </div>
 
-```{r, child="README.Rmd"}
+```{r, child="README.rmd"}
 ```
 
 ---

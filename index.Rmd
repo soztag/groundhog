@@ -62,14 +62,14 @@ Participants were given the following prompt:
 > Remember that whatever you do in the next seven days would be completely undone at the end of the week; only your memories remain.
 
 
-Or, in german:
+Or, in German:
 
-> Stelle Dir vor, dass sich die nächste Woche einmal wiederholt.
-> Am Ende der Woche dreht sich die Zeit zurück auf heute, alle Veränderungen sind revidiert und Erinnerungen gelöscht.
-> Du bist die einzige Person, die über diese Wiederholung weiß und nur Du kannst dich in Zukunft daran erinnern, was in der Woche passiert ist.
+> Stelle dir vor, dass sich die nächste Woche genau ein Mal wiederholt.
+> Am Ende der Woche dreht sich die Zeit zurück auf den heutigen Tag. Alle Veränderungen sind revidiert und Erinnerungen gelöscht.
+> Du bist die einzige Person, die über diese Wiederholung weiß und nur du kannst dich in Zukunft daran erinnern, was in der Woche passiert ist.
 >
-> Sortiere die folgenden Aktivitäten danach, wie wahrscheinlich Du sie in der Woche durchführen würdest.
-> Es ist nicht wichtig, ob Du die präferierten Aktivitäten auch alle schaffen könntest.
+> Sortiere die folgenden Aktivitäten danach, wie wahrscheinlich du sie in der Woche durchführen würdest.
+> Es ist nicht wichtig, ob du die präferierten Aktivitäten auch alle schaffen könntest.
 >
 > Denke daran, dass alle Änderungen im Universum am Ende der Woche rückgängig gemacht werden; nur deine Erinnerungen bleiben.
 
@@ -97,7 +97,7 @@ Participants were given the following sorting instructions:
 Participants were reminded:
 
 > - There is no correct or consistent way to complete your Q sort; whatever you feel expresses your subjective view on the matter is correct. 
->   This is not a test.
+>   This is not a test - There is no "right answer".
 > - Only the horizontal dimension (from left to right) matters; the vertical axis does not matter.
   Items on top of one another merely express ties.
 > If you are ambivalent about an item or do not understand it, place it in the middle between the two extremes.
@@ -120,7 +120,7 @@ Important notes for **the investigators**:
     - Is the lighting ok?
     - Is the resolution high enough?
     - Is the pseudonym card in the picture?
-    - Save redundant copies of these images.
+    - Save several copies of these images.
     - (If possible, delete date and location metadata from these images).
 - There may be a tradeoff in our study between a) getting deep, qualitative insights from observing and discussing the sorting behavior and b) avoiding social desirability biases.
   Participants may not feel free to sort some items (e.g. anti-social and sexual), when they are closely observed, or know that the investigator (= you), will "know" their Q sort.
@@ -137,7 +137,7 @@ Important notes for **the investigators**:
 - Explain the procedure very carefully to the participants, and **show them pictures of the completed sorts**.
   Otherwise, it can be quite hard to understand the methodology.
   In particular, remind them that only the horizontal axis matters, what the extremes are, and that they must adhere to the forced distribution.
-- This procedure takes time and some quiet patience (~60 minutes), as well as some space.
+- This procedure takes time and some quiet patience (> 60 minutes), as well as some space (e.g. a free table).
   Plan accordingly.
 
 

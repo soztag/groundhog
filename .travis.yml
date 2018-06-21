@@ -15,6 +15,7 @@ deploy:
   skip_cleanup: true
   local-dir: _site/
   github-token: $GITHUB_TOKEN
+  committer-from-gh: true
   on:
     branch: master
 

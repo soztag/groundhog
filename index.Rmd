@@ -112,7 +112,7 @@ Participants were given the following sorting instructions:
     ![](img/pseudo.jpg)
 > 1. Read through all the items carefully. 
      Make notes on the items if you like.
-> 2. Preliminarily sort the items in three piles:
+> 2. Preliminarily sort the items into three piles:
      1. Items you like.
      2. Items you do not understand or are ambivalent about.
      3. Items you dislike.

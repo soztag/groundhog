@@ -189,6 +189,9 @@ At the beginning of the class, we read @Habermas-1998-aa [p. 12], which was real
 
 <!-- this is for maria -->
 
+- Maria gathered **6** sorts.
+
+
 ## Conclusion
 
 <!-- this is for eleni -->

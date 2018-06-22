@@ -173,6 +173,10 @@ Important notes for **the investigators**:
   Plan accordingly.
 
 
+### Gathered Data
+
+- Max gathered **2** sorts.
+
 ## Analysis
 
 ## Interpretation

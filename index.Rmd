@@ -191,10 +191,28 @@ Important notes for **the investigators**:
   Plan accordingly.
 
 
+### Gathered Data
+
+- Max gathered **2** sorts. [^ownsort]
+
+[^ownsort]: This includes one sort completed by the author himself.
+
+At the beginning of the class, we read @Habermas-1998-aa [p. 12], which was really hard.
+
 ## Analysis
+
+<!-- this is for patrick -->
+- Patrick gathered **8** sorts. [^ownsort]
 
 ## Interpretation
 
+<!-- this is for maria -->
+
 ## Conclusion
 
+<!-- this is for eleni -->
+
 ## References
+
+<!-- this is for valeria -->
+- Valeria gathered **9** sorts.

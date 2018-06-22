@@ -175,7 +175,11 @@ Important notes for **the investigators**:
 
 ### Gathered Data
 
-- Max gathered **2** sorts.
+- Max gathered **2** sorts. [^ownsort]
+
+[^ownsort]: This includes one sort completed by the author himself.
+
+At the beginning of the class, we read @Habermas-1998-aa [p. 12], which was really hard.
 
 ## Analysis
 

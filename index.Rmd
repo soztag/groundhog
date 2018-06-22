@@ -13,6 +13,8 @@ author:
     affiliation: "Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 bibliography: library.bib
+editor_options: 
+  chunk_output_type: console
 ---
 
 <div class="jumbotron" style="color:white; background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7) ), url(img/murray.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
@@ -76,6 +78,22 @@ qmethod::make.cards(
   duplex.double = TRUE, 
   wording.font.size = "\\large",
   file.name = "german")
+
+# write out hashes and df
+hash_de <- sapply(X = items[, "ngerman"], FUN = function(x) {
+  digest::digest(object = x, algo = "crc32", serialize = FALSE)
+})
+hash_en <- sapply(X = items[, "english"], FUN = function(x) {
+  digest::digest(object = x, algo = "crc32", serialize = FALSE)
+})
+input_helper_df <- data.frame(
+  full_en = items[,"english"],
+  full_de = items[,"ngerman"],
+  handle = rownames(items),
+  hash_en = hash_en,
+  hash_de = hash_de
+)
+readr::write_csv(x = input_helper_df, path = "input_helper.csv")
 ```
 
 

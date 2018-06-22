@@ -5,6 +5,9 @@ Version: 0.0.1
 Imports: 
   rmarkdown,
   readr,
+  magrittr,
+  fs,
+  purrr,
   qmethod
 Remotes:
   maxheld83/qmethod

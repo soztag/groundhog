@@ -33,6 +33,14 @@ editor_options:
 ```{r, child="README.rmd"}
 ```
 
+```{r setup}
+library(readr)
+library(magrittr)
+library(fs)
+library(purrr)
+```
+
+
 ---
 
 ## Introduction
@@ -200,6 +208,20 @@ Important notes for **the investigators**:
 - Maria gathered **6** sorts.
 
 [^ownsort]: This includes one sort completed by the author himself.
+
+```{r data-import, include=FALSE, eval=FALSE}
+library(googlesheets)
+# this is the sheet
+groundhog_entry <- gs_title(x = "groundhog-entry", verbose = TRUE)
+gs_read(ss = groundhog_entry, ws = "Item Feedback", range = "C1:R60", col_names = TRUE) %>% 
+  write_csv(path = "rawdat/item_feedback.csv", append = FALSE, col_names = TRUE)
+all_ws <- gs_ws_ls(groundhog_entry)
+parts <- all_ws[!(all_ws %in% c("input_helper", "input-template", "Item Feedback"))]
+walk(.x = parts, .f = function(x) {
+  gs_read(ss = groundhog_entry, ws = x, range = c("A3:O9"), col_names = as.character(-7:7), na = c("#N/A")) %>% 
+    write_csv(path = fs::path("rawdat", "sorts", x, ext = "csv"), append = FALSE, col_names = TRUE)
+})
+```
 
 
 ## Analysis

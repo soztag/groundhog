@@ -33,7 +33,7 @@ editor_options:
 ```{r, child="README.rmd"}
 ```
 
-```{r setup}
+```{r setup, include = FALSE}
 library(readr)
 library(magrittr)
 library(fs)
@@ -49,8 +49,10 @@ library(purrr)
 
 ### Q-Distribution
 
-```{r}
-qmethod::make.distribution(nstat = 59, max.bin = 7)
+```{r include = FALSE}
+distro <- qmethod::make.distribution(nstat = 59, max.bin = 7)
+# TODO there is a bug here; this should work without specifiyng chessboard, null should default fine
+grid <- pensieve::as_psGrid(obj = distro, pattern = "chessboard")
 ```
 
 ### Plotting Items
@@ -60,13 +62,31 @@ items <- readr::read_csv(file = "https://docs.google.com/spreadsheets/d/e/2PACX-
 readr::write_rds(x = items, path = "items.rds")
 ```
 
-```{r plot-items, eval=FALSE, include=FALSE}
+```{r items, include = FALSE}
 raw_items <- readr::read_rds(path = "items.rds")
 items <- matrix(
   data = as.matrix(raw_items[,c("english", "german")]),
   nrow = nrow(raw_items),
   dimnames = list(items = raw_items$shorthandle, languages = c("english", "ngerman"))
 )
+# write out hashes and df
+hash_de <- sapply(X = items[, "ngerman"], FUN = function(x) {
+  digest::digest(object = x, algo = "crc32", serialize = FALSE)
+})
+hash_en <- sapply(X = items[, "english"], FUN = function(x) {
+  digest::digest(object = x, algo = "crc32", serialize = FALSE)
+})
+input_helper_df <- data.frame(
+  full_en = items[,"english"],
+  full_de = items[,"ngerman"],
+  handle = rownames(items),
+  hash_en = hash_en,
+  hash_de = hash_de
+)
+readr::write_csv(x = input_helper_df, path = "input_helper.csv")
+```
+
+```{r plot-items, eval=FALSE, include=FALSE}
 library(qmethod)
 qmethod::make.cards(
   q.set = items,
@@ -86,22 +106,6 @@ qmethod::make.cards(
   duplex.double = TRUE, 
   wording.font.size = "\\large",
   file.name = "german")
-
-# write out hashes and df
-hash_de <- sapply(X = items[, "ngerman"], FUN = function(x) {
-  digest::digest(object = x, algo = "crc32", serialize = FALSE)
-})
-hash_en <- sapply(X = items[, "english"], FUN = function(x) {
-  digest::digest(object = x, algo = "crc32", serialize = FALSE)
-})
-input_helper_df <- data.frame(
-  full_en = items[,"english"],
-  full_de = items[,"ngerman"],
-  handle = rownames(items),
-  hash_en = hash_en,
-  hash_de = hash_de
-)
-readr::write_csv(x = input_helper_df, path = "input_helper.csv")
 ```
 
 
@@ -223,8 +227,9 @@ walk(.x = parts, .f = function(x) {
 })
 ```
 
-```{r data-cleaning}
+```{r data-cleaning, include = FALSE}
 # rootsorts <- fs::path("..", "groundhog", "rawdat", "sorts")
+lookup <- readr::read_csv(file = "input_helper.csv")
 rootsorts <- fs::path("rawdat", "sorts")
 filenames <- fs::dir_ls(rootsorts, recursive = FALSE, all = FALSE, type = "file", glob = "*.csv")
 persons <- fs::path_file(filenames)
@@ -232,6 +237,11 @@ persons <- fs::path_ext_remove(persons)
 rawdat <- purrr::map(.x = persons, .f = function(x) {
   path <- fs::path(rootsorts, x, ext = "csv")
   thissort <- readr::read_csv(file = path, col_names = TRUE)
+  thissort <- as.matrix(thissort)
+  # TODO hackfix
+  attr(thissort, "pattern") <- "chessboard"
+  class(thissort) <- "psSort"
+  thissort <- pensieve:::import_psSort(x = thissort, grid = grid, lookup = lookup)
   return(thissort)
 })
 names(rawdat) <- make.names(persons)

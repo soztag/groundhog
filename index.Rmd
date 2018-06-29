@@ -235,13 +235,14 @@ filenames <- fs::dir_ls(rootsorts, recursive = FALSE, all = FALSE, type = "file"
 persons <- fs::path_file(filenames)
 persons <- fs::path_ext_remove(persons)
 rawdat <- purrr::map(.x = persons, .f = function(x) {
+  cat(x)
   path <- fs::path(rootsorts, x, ext = "csv")
   thissort <- readr::read_csv(file = path, col_names = TRUE)
   thissort <- as.matrix(thissort)
   # TODO hackfix
   attr(thissort, "pattern") <- "chessboard"
   class(thissort) <- c("psSort", "matrix")
-  thissort <- pensieve::import_psSort(x = thissort, grid = grid, lookup = lookup)
+  thissort <- pensieve:::import_psSort(x = thissort, grid = grid, lookup = lookup)
   thissort <- tidyr::gather(tibble::as_tibble(thissort), na.rm = TRUE)
   return(thissort)
 })
@@ -253,8 +254,16 @@ qdat$value <- NULL
 qdat <- as.matrix(qdat)
 rownames(qdat) <- item_order
 colnames(qdat) <- make.names(persons)
-qdat[] <- as.integer(qdat)
+qdat[,] <- as.integer(qdat)
+storage.mode(x = qdat) <- "numeric"
 ```
+
+```{r correlations, fig.height=15, fig.width=15, fig.cap="Correlations"}
+res <- NULL
+res$corr <- cor(x = qdat, method = "spearman")
+qmethod::q.corrplot(corr.matrix = res$corr)
+```
+
 
 
 

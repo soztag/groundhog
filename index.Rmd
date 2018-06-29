@@ -241,12 +241,19 @@ rawdat <- purrr::map(.x = persons, .f = function(x) {
   # TODO hackfix
   attr(thissort, "pattern") <- "chessboard"
   class(thissort) <- c("psSort", "matrix")
-  thissort <- pensieve:::import_psSort(x = thissort, grid = grid, lookup = lookup)
+  thissort <- pensieve::import_psSort(x = thissort, grid = grid, lookup = lookup)
   thissort <- tidyr::gather(tibble::as_tibble(thissort), na.rm = TRUE)
   return(thissort)
 })
 names(rawdat) <- make.names(persons)
-# qdat <- Reduce(f = function(x, y) merge(x = x, y = y, by = "key"), x = rawdat)
+library(dplyr)
+qdat <- purrr::reduce(.x = rawdat, .f = left_join, by = "value")
+item_order <- qdat$value
+qdat$value <- NULL
+qdat <- as.matrix(qdat)
+rownames(qdat) <- item_order
+colnames(qdat) <- make.names(persons)
+qdat[] <- as.integer(qdat)
 ```
 
 

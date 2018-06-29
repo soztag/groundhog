@@ -8,6 +8,8 @@ Imports:
   magrittr,
   fs,
   purrr,
-  qmethod
+  qmethod,
+  pensieve
 Remotes:
-  maxheld83/qmethod
+  maxheld83/qmethod,
+  maxheld83/pensieve

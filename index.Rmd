@@ -240,11 +240,13 @@ rawdat <- purrr::map(.x = persons, .f = function(x) {
   thissort <- as.matrix(thissort)
   # TODO hackfix
   attr(thissort, "pattern") <- "chessboard"
-  class(thissort) <- "psSort"
+  class(thissort) <- c("psSort", "matrix")
   thissort <- pensieve:::import_psSort(x = thissort, grid = grid, lookup = lookup)
+  thissort <- tidyr::gather(tibble::as_tibble(thissort), na.rm = TRUE)
   return(thissort)
 })
 names(rawdat) <- make.names(persons)
+# qdat <- Reduce(f = function(x, y) merge(x = x, y = y, by = "key"), x = rawdat)
 ```
 
 

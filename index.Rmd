@@ -223,6 +223,21 @@ walk(.x = parts, .f = function(x) {
 })
 ```
 
+```{r data-cleaning}
+# rootsorts <- fs::path("..", "groundhog", "rawdat", "sorts")
+rootsorts <- fs::path("rawdat", "sorts")
+filenames <- fs::dir_ls(rootsorts, recursive = FALSE, all = FALSE, type = "file", glob = "*.csv")
+persons <- fs::path_file(filenames)
+persons <- fs::path_ext_remove(persons)
+rawdat <- purrr::map(.x = persons, .f = function(x) {
+  path <- fs::path(rootsorts, x, ext = "csv")
+  thissort <- readr::read_csv(file = path, col_names = TRUE)
+  return(thissort)
+})
+names(rawdat) <- persons
+```
+
+
 
 ## Analysis
 

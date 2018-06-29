@@ -51,6 +51,7 @@ library(purrr)
 
 ```{r include = FALSE}
 distro <- qmethod::make.distribution(nstat = 59, max.bin = 7)
+names(distro) <- -7:7
 # TODO there is a bug here; this should work without specifiyng chessboard, null should default fine
 grid <- pensieve::as_psGrid(obj = distro, pattern = "chessboard")
 ```
@@ -255,14 +256,37 @@ qdat <- as.matrix(qdat)
 rownames(qdat) <- item_order
 colnames(qdat) <- make.names(persons)
 qdat[,] <- as.integer(qdat)
-storage.mode(x = qdat) <- "numeric"
+storage.mode(x = qdat) <- "integer"
 ```
 
 ```{r correlations, fig.height=15, fig.width=15, fig.cap="Correlations"}
 res <- NULL
 res$corr <- cor(x = qdat, method = "spearman")
 qmethod::q.corrplot(corr.matrix = res$corr)
+plot(pensieve::QCors(cors = res$corr))
 ```
+
+```{r paran, fig.height=15, fig.width=7, fig.cap="Parallel Analysis"}
+qmethod::q.nfactors(dataset = qdat, iterations = 10000, cutoff = 8, cor.method = "spearman", siglevel = 0.5)
+```
+
+```{r paran2}
+pensieve_paran <- pensieve::run_parallel(dataset = qdat, centile = .5, grid = distro)
+qres <- qmethod::qmethod(dataset = qdat, nfactors = 5, rotation = "none")
+qres$f_char$characteristics$eigenvals[1:5] - pensieve_paran[1:5]
+```
+
+```{r rotations}
+unrot <- qmethod::qmethod(dataset = qdat, nfactors = 3, rotation = "varimax", forced = TRUE, cor.method = "spearman", reorder = FALSE, threshold = "none", allow.confounded = TRUE)
+unrot$f_char
+qmethod::q.loaplot(results = unrot) # works
+qmethod::q.scoreplot.num(results = unrot) # works
+qmethod::q.scoreplot.ord(results = unrot, factor = 1)  # works
+# qmethod::q.compplot(results = unrot)
+# qmethod::q.rotplot(results = unrot)
+```
+
+
 
 
 

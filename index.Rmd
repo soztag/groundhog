@@ -234,7 +234,7 @@ rawdat <- purrr::map(.x = persons, .f = function(x) {
   thissort <- readr::read_csv(file = path, col_names = TRUE)
   return(thissort)
 })
-names(rawdat) <- persons
+names(rawdat) <- make.names(persons)
 ```
 
 

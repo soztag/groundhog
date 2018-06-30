@@ -295,7 +295,7 @@ qmethod::q.scoreplot.ord(results = unrot, factor = 1)  # works
 
 ### Factor 1
 <!-- TODO add proper factor names as heading -->
-
+Factor 1 interpretating
 
 ### Factor 2
 

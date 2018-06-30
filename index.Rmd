@@ -288,18 +288,23 @@ qmethod::q.scoreplot.ord(results = unrot, factor = 1)  # works
 ```
 
 
-
-
-
-
 ## Analysis
 
 
 ## Interpretation
+
+### Factor 1
+<!-- TODO add proper factor names as heading -->
+
+
+### Factor 2
+
+
+### Factor 3
+
 
 
 ## Conclusion
 
 
 ## References
-

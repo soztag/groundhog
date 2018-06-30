@@ -12,4 +12,4 @@ Imports:
   pensieve
 Remotes:
   maxheld83/qmethod,
-  maxheld83/pensieve
+  maxheld83/pensieve@fb2ece2

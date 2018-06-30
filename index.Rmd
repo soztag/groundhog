@@ -230,6 +230,7 @@ walk(.x = parts, .f = function(x) {
 
 ```{r data-cleaning, include = FALSE}
 # rootsorts <- fs::path("..", "groundhog", "rawdat", "sorts")
+library(pensieve)
 lookup <- readr::read_csv(file = "input_helper.csv")
 rootsorts <- fs::path("rawdat", "sorts")
 filenames <- fs::dir_ls(rootsorts, recursive = FALSE, all = FALSE, type = "file", glob = "*.csv")
@@ -243,7 +244,7 @@ rawdat <- purrr::map(.x = persons, .f = function(x) {
   # TODO hackfix
   attr(thissort, "pattern") <- "chessboard"
   class(thissort) <- c("psSort", "matrix")
-  thissort <- pensieve:::import_psSort(x = thissort, grid = grid, lookup = lookup)
+  thissort <- pensieve::import_psSort(x = thissort, grid = grid, lookup = lookup)
   thissort <- tidyr::gather(tibble::as_tibble(thissort), na.rm = TRUE)
   return(thissort)
 })

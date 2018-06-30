@@ -12,4 +12,4 @@ Imports:
   pensieve
 Remotes:
   maxheld83/qmethod,
-  maxheld83/pensieve@grid-js
+  maxheld83/pensieve@grid-from-js

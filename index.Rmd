@@ -295,7 +295,11 @@ qmethod::q.scoreplot.ord(results = unrot, factor = 1)  # works
 
 ### Factor 1
 <!-- TODO add proper factor names as heading -->
+
 Test test test
+
+This is just to provoke a merge conflict!
+
 
 ### Factor 2
 

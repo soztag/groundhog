@@ -13,3 +13,5 @@ meta.pdf
 meta.tex
 input_helper.csv
 .httr-oauth
+index_files/
+index_cache/

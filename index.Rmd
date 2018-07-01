@@ -33,11 +33,19 @@ editor_options:
 ```{r, child="README.rmd"}
 ```
 
-```{r setup, include = FALSE}
+```{r setup, include = FALSE, cache = FALSE}
 library(readr)
 library(magrittr)
 library(fs)
 library(purrr)
+library(pensieve)
+library(qmethod)
+knitr::opts_chunk$set(
+  cache = TRUE, 
+  autodep = TRUE, 
+  message = FALSE, 
+  echo = FALSE,
+  out.width = "100%")
 ```
 
 
@@ -45,18 +53,25 @@ library(purrr)
 
 ## Introduction
 
-## Item Generation
+*Valeria Scollo*
+
+
+## Methods
+
+*Ngoc Tuyet Nhung*
+
 
 ### Q-Distribution
 
-```{r include = FALSE}
+```{r distro, include = FALSE}
 distro <- qmethod::make.distribution(nstat = 59, max.bin = 7)
 names(distro) <- -7:7
 # TODO there is a bug here; this should work without specifiyng chessboard, null should default fine
 grid <- pensieve::as_psGrid(obj = distro, pattern = "chessboard")
 ```
 
-### Plotting Items
+
+### Item Generation
 
 ```{r, eval=FALSE, include=FALSE}
 items <- readr::read_csv(file = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSkT1N44FpPcqAcAp1eChsHI0jlw-F0gqB7w1Sl4ksd6q3vNAoBbkjrx0rjlYc_7hhJiZ0uHvmxKRon/pub?gid=0&single=true&output=csv")
@@ -110,7 +125,7 @@ qmethod::make.cards(
 ```
 
 
-## Field Work
+### Field Work
 
 Participants were given the following prompt:
 
@@ -204,7 +219,11 @@ Important notes for **the investigators**:
   Plan accordingly.
 
 
-### Gathered Data
+## Analysis
+
+*Eleni Sarri*
+
+### Data
 
 - Max gathered **2** sorts. [^ownsort]
 - Patrick gathered **8** sorts. [^ownsort]
@@ -229,8 +248,6 @@ walk(.x = parts, .f = function(x) {
 ```
 
 ```{r data-cleaning, include = FALSE}
-# rootsorts <- fs::path("..", "groundhog", "rawdat", "sorts")
-library(pensieve)
 lookup <- readr::read_csv(file = "input_helper.csv")
 rootsorts <- fs::path("rawdat", "sorts")
 filenames <- fs::dir_ls(rootsorts, recursive = FALSE, all = FALSE, type = "file", glob = "*.csv")
@@ -260,51 +277,88 @@ qdat[,] <- as.integer(qdat)
 storage.mode(x = qdat) <- "integer"
 ```
 
-```{r correlations, fig.height=15, fig.width=15, fig.cap="Correlations"}
-res <- NULL
-res$corr <- cor(x = qdat, method = "spearman")
-qmethod::q.corrplot(corr.matrix = res$corr)
-plot(pensieve::QCors(cors = res$corr))
-```
 
-```{r paran, fig.height=15, fig.width=7, fig.cap="Parallel Analysis"}
-qmethod::q.nfactors(dataset = qdat, iterations = 10000, cutoff = 8, cor.method = "spearman", siglevel = 0.5)
-```
+### Correlations
 
-```{r paran2}
-pensieve_paran <- pensieve::run_parallel(dataset = qdat, centile = .5, grid = distro)
-qres <- qmethod::qmethod(dataset = qdat, nfactors = 5, rotation = "none")
-qres$f_char$characteristics$eigenvals[1:5] - pensieve_paran[1:5]
-```
-
-```{r rotations}
-unrot <- qmethod::qmethod(dataset = qdat, nfactors = 3, rotation = "varimax", forced = TRUE, cor.method = "spearman", reorder = FALSE, threshold = "none", allow.confounded = TRUE)
-unrot$f_char
-qmethod::q.loaplot(results = unrot) # works
-qmethod::q.scoreplot.num(results = unrot) # works
-qmethod::q.scoreplot.ord(results = unrot, factor = 1)  # works
-# qmethod::q.compplot(results = unrot)
-# qmethod::q.rotplot(results = unrot)
+```{r correlations, fig.height=11, fig.width=11, fig.cap="Pearsons Correlation Coefficient"}
+cors <- cor(x = qdat, method = "pearson")
+q.corrplot(corr.matrix = cors)
 ```
 
 
-## Analysis
+### Factor Retention
+
+```{r paran, include=FALSE}
+qparan <- qmethod::q.nfactors(dataset = qdat, iterations = 10000, cutoff = 8, cor.method = "spearman", siglevel = 0.5, quietly = TRUE)
+```
+
+```{r screeplot, fig.cap="Scree Plot with Parallel Analysis", fig.width=9}
+qparan$screeplot
+```
+
+```{r eigenvals}
+knitr::kable(x = qparan$eigenvalues, caption = "Eigenvalues from Data and Simulations")
+```
+
+
+### Factor Extraction and Quartimax Rotation
+
+```{r extraction, include = FALSE}
+quartimax <- qmethod::qmethod(dataset = qdat, nfactors = 3, rotation = "quartimax", forced = TRUE, cor.method = "spearman", reorder = FALSE, threshold = "none", allow.confounded = TRUE)
+```
+
+```{r chars}
+knitr::kable(quartimax$f_char$characteristics, caption = "Factor Characteristics")
+```
+
+```{r factor-cors}
+knitr::kable(quartimax$f_char$cor_zsc, caption = "Interfactor Correlations")
+```
+
+```{r loadings}
+ploas <- pensieve::QLoas(loas = as.matrix(quartimax$loa))
+plot(x = ploas, by = "people", use_js = FALSE)
+```
+
+```{r r2}
+plot(x = ploas, by = "people", use_js = FALSE, r2 = TRUE)
+```
 
 
 ## Interpretation
 
-### Factor 1
-<!-- TODO add proper factor names as heading -->
+*Patrick Hajjar (and all authors)*
+
+<!-- TODO add proper factor names  as heading -->
+<!-- TODO also add proper factor colors -->
 This is the synthesis (or compromise of the two versions.)
 
+
+### Factor 1
+
+```{r f1, warning = FALSE, fig.width=11, fig.cap="Binned Scores for Factor 1"}
+q.scoreplot.ord(results = quartimax, factor = 1, incl.qdc = FALSE, quietly = TRUE)
+```
+
+
 ### Factor 2
+
+```{r f2, warning = FALSE, fig.width=11, fig.cap="Binned Scores for Factor 2"}
+q.scoreplot.ord(results = quartimax, factor = 2, incl.qdc = FALSE, quietly = TRUE)
+```
 
 
 ### Factor 3
 
+```{r f3, warning = FALSE, fig.width=11, fig.cap="Binned Scores for Factor 3"}
+q.scoreplot.ord(results = quartimax, factor = 3, incl.qdc = FALSE, quietly = TRUE)
+```
+
 
 
 ## Conclusion
+
+*all authors*
 
 
 ## References

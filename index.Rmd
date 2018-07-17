@@ -293,19 +293,68 @@ qmethod::q.scoreplot.ord(results = unrot, factor = 1)  # works
 
 ## Interpretation
 
+###Factor Interpretation
+
+*by Eleni Sarri*
+
+
+
 ### Factor 1
 <!-- TODO add proper factor names as heading -->
-Factor 1 interpretating
+The majority of the participants scored high on factor 1.
+By looking at the binned scores the participants valued financial advancement and self-centered activities the most.
+The Items "Memorize the lottery numbers" and "Place some financial insider trades in the re-run, profiting from my knownledge of the future" were placed on the positive end characterizing the q-sorting of this factor as future-oriented and practical.
+On the negative end were positioned the barbarous and violent items such as "Kidnap a child to see how it is to be a parent" and "Kill somebody".
+Interpreting it as the q-sorters abhorring such extreme and non-ethical actions.
+In the center the participants who scored high on factor 1 were indifferent about the Items "Do extreme sports", "Try a lot of drugs" or "Get a tattoo to see if i like it"  and were considered not important in this situation.
+The Factor 1 score for these Items indicate  a very similar sorting, as they are a darker shade making their standard deviation low.
+The outer ends are lighty shaded meaning that the sorting of these Items deviated from participant to participant.
+These results strengthen the forward -thinking, egocentrical and sucess driven attitude of the sorters belonging to factor 1. 
+They put more significance on the days following the groundhog event to build a better future with financial stability, as well as improve and take care of  themselves, even  though every action will be reset.  
 
 
 ### Factor 2
 
+Factor 2 displays many similarities with the Factor 1.
+On the positive end scored high the Items "Memorize the lottery numbers" and "Place some financial insider trades in the re-run, profiting from my knownledge of the future".
+The only difference with Factor 1 is that these 2 statements are a darker shade indicating the standard deviation between the participants who placed these items on the positive extreme isnt high.
+On the negative side are mostly the usual mundane activities located like "Act normally, out of fear that time will not be rewound" or "Going about my business as usual".
+While on the neutral middle the participants were ambivalent about the destructive and unethical Items such as "Be destructive and violent" or "Burn down state facilities".
+This fact can be interpreted as the individuals being inquisitive and curious. 
+Wanting to break the routine.
+To try new things, experience something that they can´t or haven´t, because of their own fears, unchangeable lifechoices or ethical aspects.
+Do something they always wanted, but simultaneoulsy having the calming knownledge that everything will be reversed without them having to face the consequences of their actions. 
+Which is interesting comparing it to Factor 1. 
+The characteristic of factor 1 is future-oriented, while Factor 2 more present-oriented. 
+
 
 ### Factor 3
 
+Factor 3 is the most difficult to interpret.
+From all the 36 q-sorters only 3 people scored high on this one.
+Most of the items are dark shaded meaning that they dont deviate with the 3 original q-sortings of the 3 participants. 
+So "Cheat on my partner" and "Go around and tell everyone how i really feel about them" were the items they would most likely do in a groundhog situation.
+Acting in a rebellious and spontaneous way.
+At some points it seems a little bit randomly  sorted.
+Surprisingly the violent Items were placed on the negative extreme.
+With such a seemingly impulsive sorting it would have been expected that the uncivilized and brutal activities would have scored higher on their sorting.
+Another surprise is the Item "Memorize the lottery numbers" for the other factors was the most agreed on Item. 
+On Factor 3, however, it was placed on the negative side.
+Making it insignificant.
+That makes the  assumption stronger that they are individuals with a different unusual mindset and unpredictable behaviour. 
+Enjoying this groundhog oppurtinity like a  new found freedom. 
+It should be mentioned that there is a possibility that the sorting of the participants who loaded high on Factor 3 could have been influenced by another factor being present at the time of ther sorting.
 
 
 ## Conclusion
+
+*by Eleni Sarri*
+
+To conclude people will react differently given the oppurtinity to repeat a week once more.
+Some want to ameliorate their current living situation and build a stable secure future.
+Others will use this situation to try new foreign things, with the assurance that everything will be back to how it previously was and with no one remembering it. 
+Lastly, some individuals will act spontaneously and free-spirited with nothing stopping from acting with no consideration for others.
+
 
 
 ## References

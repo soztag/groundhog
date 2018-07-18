@@ -294,15 +294,27 @@ qmethod::q.scoreplot.ord(results = unrot, factor = 1)  # works
 ## Interpretation
 
 ### Factor 1
-<!-- TODO add proper factor names as heading -->
+If we take a look at the graphic representation of the items according to Factor 1, we can observe that the subjects ranked high items related to enjoyable activities like „eating“, „party“, „expensive travels“ and so on. 
+„win the lottery“ is put on the first place, maybe because money represent, in our society, one of the most important means in order to live a well fixed life and to get to do all those activities that we pointed out before. 
+However, the subjects ranked high also items like „improve myself“, „insider training“, „make someone happy“, „me time“ that seem more related to moral values and self growth . 
+Consequently, we find non ethical items (like „killing“, „kidnapping“, „burn state“ and so on) ranked negatively. 
+Factor 1 seems to point out the behaviour of subjects that want to enjoy themselves without „hurting“ the others, meaning that you can have fun without breaking the rules.
 
-This is just to provoke a merge conflict!
 
 ### Factor 2
+Looking now at the graphic representation of the items according to Factor 2, we can notice that „win the lottery“ is still ranked as the „first item“ (+1), but this time it is followed by items that reflect a more „rebel“ side of the subjects: items considered illegal or non ethical in every day life like „drugs“, „killing“, „rob a bank“ are ranked high. 
+However the item „destruction“ is collocated on the neutral side; this could lead to the thought that maybe the subjects are moved from the curiosity about the feeling that a person could get from doing illegal actions, but this does not  necessarily mean that they have a destructive side. 
+It could mean that they would try those actions just because they know that at the end of the week everything will be undone, not because they want to be harmful to others. 
+This rebel  tendency could also be confirmed by the low ranking of items like „be scared“, „the usual“, „act normally“ or „work“ as they already represent event it the ordinary life of everybody. 
+Given the opportunity, there are people that would probably prefer to „dare“  illegal actions instead of behave normally according to moral values of  the society. 
+
 
 
 ### Factor 3
-
+The graphic representation of the items according to Factor 3 shows a „tricky situation“.
+Sex related items like for example „cheating“, „sexual fantasies“, „ask sex“ are rated high, while „marry“ or „confess love“ are ranked negatively:could it reflect a need for sexual freedom from the standards created by our society?
+Also, non related items like „sleep“, „eating“, „found religion“, „drugs“, „non violent crime“ seems to be opposed to items like „killing“, „kidnapping“, „destruction“  or „burn state“ that have a strong impact on every day life situations.
+In contrast to the situation according to Factor 2 –that shows a rebel or extreme side of the subjects- , in this case we could think that the ranking seems to underline just a need for more personal freedom
 
 
 ## Conclusion

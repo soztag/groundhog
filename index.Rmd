@@ -293,174 +293,53 @@ qmethod::q.scoreplot.ord(results = unrot, factor = 1)  # works
 
 ## Interpretation
 
-### Factor 1 Lawful Good 
+### Factor 1 **civil and law-abiding**  
+Factor 1 has an 1eigenvalue of 8.80 and explains 24.4% of the stury variance.  
+Most of the participants of our sample are significantly associated with this factor. Hence, the item standard deviation across the Q sort for this factor is relatively high in comparison to the others, especially at the extremes.
+  
+People who load highly on factor 1 show a tendency of healthy curiosity.  
+They strive to experiment with things that only concerns themselves in the broadest sense. Besides memorizing the lottery numbers (+7) and placing some financial insider trades in the re-run, profiting from my knowledge of the future (+6), which are actions to provide for their livelihood security in 'real life' and time after the groundhog scenery and therefore for their future, they see their opportunity to do things they would like to do on everyday life but cannot because they do not have the time or courage to do so, e.g. having more me time (+4) and to improve themselves (+4), confess something they have never told anyone (+3) and live out sexual fantasies (+2).
 
-In this segment, Factor 1, will be interpreted. 
-In accord with Watts and Stenner, the extreme loadings will be looked at first.
-The high standard deviation, regarding rank +7 and -7, catches the eye. Participants who exemplify Factor 1 couldnt agree on the two poles.
-The highest correlation could be found for "lottery" at rank +7 and "killing" at rank -7.
+They would still, however, behave and act within the frame of social norms and values. They shun breaking the law and actions that could harm any other individual or institution. There are indications that leads to the assumption that they avoid these actions not particularly because they are still afraid of the consequences, but rather because they can not find a sense in arbitrary destruction (-5) or affecting somebody detrimentally, as they are not drawn to “Making someone else's day as horrible as possible” (-4) or faking their own deaths (-4), which both would result in distressing the peolpe, who are involved, either. Consequently, the item “Killing someone” (-7) is placed on the negative extreme point; even though not everyone with loadings on factor 1 seems to fully agree on the total ranking, as the standard deviation indicates, the sort indicates that ruthless behavior in general is to be avoided. 
 
-These two poles alone, don't really allow any sort of thorough interpretation, but when one is looking at the whole sort, a picture starts to emerge:
+This group of participants can be described as **civil and law-abiding** in the sense of not wanting to attract attention to themselves by illicit actions but still see their chance to take advantage of the situation and to try new things and be adventurous to a certain degree, without sabotaging anyone else or themselves by doing so.  
+Nonetheless, it should be keep in mind that this cluster is the factor that is most likely influenced and shaped by *social desirability*.
 
-Factor 1 placed items of monetary gain, withouth immersing in any sort of active/violent crimes, and of transfering consequence to the real timeline very high.
-They placed the items "lottery", "insider trading" and "expensive travel" all on pole positions within the sort.
-But the item "rob bank" is placed on the negative side.
-This supports the interpretation that Factor 1 is rather moral and legal abiding. 
 
-They are focused on self-improvement like "me time", "improve myself" but at the same time want to experience new things like "restaurants" and "sexual fantasies"
 
-Another interesting observation could be made about the items "true opinion", "eating", "forbidden places" and "confess".
-All these items have in common, that they are a mild sort of rebellion against social conventions.
-The key factor is the word "mild".
-If they truly wanted to forego social or moral conventions they would place items like "destruction" or "burn state" high, but they focused on interpersonal acts like "true opinion" or "confess".
-This assumption is especially confirmed by participants through statements in regard to the item "true opinion".
-A few participants commented when prompted why they placed it so high, that they wouldnt tell people their true opinions about them in the "real timeline" because of fear for repurcussions but because they wouldn't want to hurt peoples feelings.
+### Factor 2 **antisocial and freedom-loving**  
+Factor 2 has an eigenvalue of 4.34 and explains 12.1% of the study variance.  
+Few people have significantly high loadings on this factor.  
+  
+People with loadings on factor 2 tend to test the extremes that are usually socially stigmatized in a negative way.  
+They are characterized by **reckless and regardless behavior** in a sense of discarding social constraints. Given the opportunity a week where they can do whatever they want, without living with the consequences afterwards, they go to the limits, in comparison to the participants of the other factors. As a result, they vigorously avoid doing the usual (-7), act normally (-5), and get some work done (-5) the most. They feel also less averse to the idea of general and public destruction, which shows in rather positive tendencies towards destructive and violent behavior (0), burning down state facilities (+1), Grand Theft Auto in real life (+1) and robbing a bank (+4). 
 
-When looked at the negative-ranking site of the sort another interesting pattern emerges.
-All of the items which have any sort of connection to harming someone else, or oneself, are placed low.
-Factor 1 is not curious about the afterlife, or anything death related. Factor in general is more focused on themselves then on others.
-They don't want to indulge in any form of violence, be it vandalism ("grand theft auto", "burn state", "graffiti") or physical.
-They also all placed the item "kidnapping" very low and if prompted participants were very aggravated about the wording of the item.
+Besides activities and behavior, which do not principally aims at, but involves inflicting damage on individuals or society, they seem to deliberately shun social actions as interpersonal interaction, as by throwing a huge party (-3), pretending to be someone else (-4) or with cheating (-4).
+Even though they seem to feel negative about the item “Avoid people I know because the would remember out meeting” (-3), this can either be explained by assuming that they do not call much importance to the underlying tone of the item of getting in an uncomfortable situation with those people after the groundhog week or that their circle of friends and acquaintances they meet on a regular basis is not big enough to care about this problematic or they do not meet anyone that often at all. 
 
-Even though they placed "insider trading" high, Factor 1 in general is averse to crime.
-It is to be presumed that the general populace is not aware that mere insider trading is a crime by law.
-Factor 1 placed it high because of the possibility to transfer the monetary gain outside the timeloop and to change the real timeline.
+Nevertheless, it is important to emphasize, that the principles of this factor are not primarily to harm and to destruct, but they hazard these consequences in doing what they want to do and experience out of their curiosity. One could say, the end justifies the means here. Hence, the item "Being destructive and violent" (0) is placed in the middle, implying indifference, meaning they do not especially feel positive or negative about it, it might not be a "must do", however, they would not despise it and avoid it out of conviction as participants with higher loadings on factor 1 would.
 
-Even though they placed the item "sexual fantaies" and "ask sex" high, they placed "cheating" low.
-This could indicate that they are either single, sexually frustrated in regards to their relationship or that they placed "cheating" low because each participant knew his/her instructor and a form of social censoring took place.
+This group of people use their new gained opportunity to think completely outside the box, and do the extremes they usually cannot implement or accomplish because they are normally restricted by social desirability and restriction and criminal prosecution.
 
-The standard deviation of item placement is lowest in the neutral ranking spectrum. In accord with the above mentioned instructions, participants were told that the items place in the center are items they don't care about or they don't understand. 
 
-Factor 1 placed the item "pretendsoelse" universally on the zero ranking.
-This could indicate that Factor 1 feels generally good about themselves.
-As mentioned before Factor 1 is focused on self-improvement, but to improve oneself, one first has to know who they are and what they are able to improve.
 
-Factor 1 is rather critical and conservative.
-This is supported by the placement of "fortune teller", "embarrassing" and "karaoke". "Karaoke" and "embarrassing" could both be placed on the same rank, because the notion of karaoke is in Germany a rather excentric experience that is connotated with a high degree of embarrassment. 
-"Extremesports" could be placed on rank 0 because the thrill of extreme sports results through putting oneself in danger and the possibility of death.
-As mentioned before, Factor 1 is not very fond of the concept of death.
-The higher placement of "extremesports" in regard to the other death-related items is probably because with extreme sports death is only a possibility, while commiting suicide is guaranteed to result in death.
+### Factor 3 **adventurous and eclectic**
+Factor 3 has an eigenvalue of 2.46 and explains 6.84% of the study variance.  
+Only three participants can be significantly associated with this factor, who are all male and in the age og 20 to 23. The item standard deviation of this factor is, therefore, relatively low.
+  
+People, who load highly on factor 2, belong to the most ambivalent group of the participants.  
+They feel positive about the opportunity to cheat (+7) and to tell other people their true opinion (+6). An item they also place on a highly positive rank is “Just do completely random stuff, whatever comes to mind” (+5) which pretty much explains and summarizes the mindset and reasoning of this cluster. On the one hand they consider robbing a bank (+3), which demands much effort and energy; on the other hand they can also imagine sleeping the whole day (+5).
 
-The item "quitq" was generally met with confusion and thus placed on the -1 rank.
+They seem indecisive but also, or rather *because*, they can easily be enthused for everything. However, they draw the line at being destructive and violent (-5) and killing somebody (-4), as people with high loadings of factor 1 do, but also avoid particularly acting normally (-4), agreeing with people from factor 2. On the first sight this group of **eclectic experimentalists** might seem like a combination or something in-between the factor 1 and 2 but on further inspection there are completely different motivations behind their choices. For example, they dislike the idea of killing somebody random (-4) and being destructive and violent (-5), however, like the idea to rob a bank (+3), which are items that people with high loadings of factor 1 and factor 2 seem not distinguish in particular.
 
-Factor 1 is a generally moral and law abiding person, that is deeply rooted in its social environment.
-They want to rebel against the estabslishment, but only in a social-sanctioned frame.
-They are more fearful then Factor 2 and 3 and more focused on improving their life outside the timeloop. 
+The group with high loadings on factor 3 think more **pragmatically** though. The sort of factor 3 shows that items as “Make myself deaf or blind, so I can learn how it is to live like that.” (-7) and “Kill myself to see what happens after death” (-6) and the destructive behavior and killing somebody, as mentioned above, are things that they feel negative about and would not consider, not because these actions chiefly anticipate their moral values, but rather because this behavior would or could restrict them in their further plans for the groundhog week, as they could be send to jail or simply cannot experience anything different fully with all their senses anymore. According to their sorting they do not have a strict moral code or specific values they live to but rather elect their morals according to what they want to achieve.
 
-### Factor 2 True neutral
+The statistical outcome and the fact that only a low number of participants can be significantly associated with this factor, might give room for concerns about its eligibility, however using not only the quantitive but also the qualitive character of Q method, it is possible to reason a pattern and subjectivity behind this factor, that might have seen arbitrar at first, and give it solid ground.
 
-In the following segment, Factor 2 will be interpretated.
-As with Factor 1, the interpretation will be based on the mentioned examples by Watts and Stenner.
-
-At first sight, the standard deviation across the whole sort is significantly lower for Factor 2 then for Factor 1.
-Factor 2 and also Factor 3 had fewer participants whose Q-Sort exemplified the specific factors and thus a lower deviation is to be expected.
-
-First I am going to take a look at the two poles.
-Factor 2 also placed "lottery" and "insidertrading" as their highest positive rankings but placed "theusual" and "scared" on their respective negative rankings. 
-
-At first look, Factor may seem averse to morals and social conventions but after taking a closer this presumption is proved wrong.
-
-Even though they are interested in monetary gain, which would affect the real timeline and thus their real life, Factor 2 is also highly curious.
-When looked at single items their behavior seems irrational and destructive,
-but when looking at the greater picture there also seems to be a pattern for Factor 2.
-
-They ranked "killing", "drugs", "afterlife", "fakedeath" and "extremesports" all on the same rank (+3).
-When looking at rank 2, for example "forbiddenplaces", there seems to emerge a yearning for new experiences.
-Factor 2 is extremely curious.
-They want to experience otherwise unexperiencable or rather socially reprehensible things. 
-They also aren't as focused on improving themselves as Factor 1. 
-
-Factor 2 wants to found a religion, rather than join an existing one.
-The interpretation that Factor 2 is not bent on pure disruptive behavior is based on the items "makehappy" (+1) and "makebadday" (+2). When directly compared, these items seem paradoxical to each other, but when looked at with a filter of curiosity, they work together.
-
-Factor 2 wants to kill because they want to know what it is like.
-They want to kill themselves, so they can experience what the afterlife is like. It isn't about the violent act itself, but rather the knowledge hidden behind it.
-This assumption is also supported by "accident" at rank 2.
-
-The negative rankings of the sort give even more ground to this hypothesis.
-
-They ranked items like "party", "sleep" and "marry" negative,
-because they are mundane.
-These are all achievable things and one doesn't need a timeloop to experience them.
-They seek the thrill.
-
-This whole sort is driven by the aforemented thrill.
-The adrenaline rush that is achieved by doing activites that are looked down upon by society. 
-
-The item "actnormally" at rank -5 supports this narative. 
-
-The neutral part of the ranking is more diversed then the two respective poles. 
-
-Just like Factor 1, Factor 2 also placed "quitq" on the neutral spectrum.
-This can also be a sign that the item is misphrased or rather extremely out of the blue and thus incomprehensible. 
-
-Another interesting correlation can be found between "destruction" (0) and "burnstate" (+1). 
-Factor 2 is indifferent towards pure destruction for the sake of destroying things, but if there is an anarchical purpose behind it they rank it higher. 
-
-Just like with Factor 1, they placed the items "sexualfantasies" and "asksex" positive but "cheating" on the negativ side. 
-This can also be due to them being single or rather because of social censoring due to knowing the instructor. 
-
-Factor 2 seems to see the timeloop as chance rather than a threat and wants to make the most out of it. 
-They pursue knowledge for the sake of knowledge and act under the mantra of 
-"the end justifies the means"
-
-### Factor 3 Chaotic neutral
-
-Where as Factor 1 and 2 seemed to hide a pattern, Factor 3 is just pure chaos. Like Factor 2, the standard deviation is extremely low, which is also explained by a lower number of participants that exemplified the specific factors representing Factor 3. It is even lower than Factor 2.
-
-On the respective poles they placed "cheating" (+7) and "blinddeaf" (-7)
-
-They placed all the items with a sexual notion relatively high.
-This implies there was no real social census, like with Factor 1 and 2 and they are either single or probably not in a sexually fulfilling relationship.
-
-Another interesting observation could be made about their aversion towards violence.
-They would commit non-violent crimes (+2) but abhor killing (-4) or destruction (-5). They are also not interested in vandalism of any sort which is supported by "burnstate" (-2) and graffitti (-2).
-
-There is a bit of a paradox as they placed "avoidpeople" at rank +3 but at the same time placed "trueopinion" (+6) and confess (+3) quite high. 
-
-Factor 3 is not as curious as Factor 2 and not as moral-abiding as Factor 1. 
-
-Their negative rankings imply that they would not indulge in criminal activities that could physically harm another person and are rather focused on random arbitrary acts. 
-
-In regard to the items placed on the neutral spectrum of the ranking,
-they are confident in their identity,
-they don't care about joining a cult (0) or pretending to be someone else (0). 
-
-Just like the other two Factors, they placed "quitq" at a neutral ranking (0), which can also be ascribed to the nature of the item itself.
-
-Factor 3 would rather make someones day horrible (+1) then wonderful (-4) and is also not interested in preventing a possible accident,
-which is ironic because they placed "unprotectedsex" at +1.
-
-Another interesting notion, in comparison with Factor 1 and Factor 2, is the missing focus on monetary gain outside of the time loop.
-Factor 3 placed "lottery" at -3 and "insidertrading" at +2.
-At the same time Factor 3 doesn't want to pay their bills (+3). 
-
-If one was to devise a pattern for Factor 3 it would be highly focused on the respective persons whim.
-Factor 3 is not as focused on monetary gain, but rather on sexual freedom.
-They approve of random actions (+5), highly approve of sleeping (+5) and at the same time don't really know what they want.
 
 
 ## Conclusion
 
-When I enlisted for this seminar I was unabled to imagine what Q-Methodology really meant.
-I put it aside as a standard qualitative methodology and at first couldn't quite grasp what it is about.
-In hindsight, I do have to say that my first impression was wrong.
-
-The approach of confrontating participants with cards instead of multiple pieces of paper with written question was really different and interesting.
-All my participants were sceptical beforehand but after engaging in a q-sort started to really get into it.
-They may have not talked as much as i would have liked,
-but the statements they gave were insightful.
-People didn't just place the items so they could get it over with,
-but were really thinkful about the different rankings and often times switched the cards around. 
-
-I really liked the engagement of instructor and participant and when I look at the collected data,
-I do have to agree with Brown on Stephensons Statement 
-"A methodology is not merely a technique but a profound way of approaching nature".
-
-The Factors could have been a little more diverse for my taste and maybe Factor 3 isn't really representative.
-Especially when the three Factors are compared.
-
-But all in all, it was a very interesting experience and distinctive way to approach subjective behavior in a methodological way.
 
 
 ## References

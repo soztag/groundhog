@@ -1,0 +1,9 @@
+base
+readr
+magrittr
+fs
+purrr
+pensieve
+qmethod
+dplyr
+MASS

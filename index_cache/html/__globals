@@ -1,0 +1,18 @@
+distro	distro	make.distribution	names	grid	as_psGrid
+unnamed-chunk-2	items	read_csv	write_rds
+items	raw_items	read_rds	items	matrix	as.matrix	c	nrow	list	shorthandle	hash_de	sapply	digest	x	hash_en	input_helper_df	data.frame	rownames	write_csv
+plot-items	library	qmethod	make.cards	items
+data-import	library	googlesheets	groundhog_entry	gs_title	gs_read	%>%	write_csv	all_ws	gs_ws_ls	parts	%in%	c	walk	x	as.character	path
+data-cleaning	lookup	read_csv	rootsorts	path	filenames	dir_ls	persons	path_file	path_ext_remove	rawdat	map	cat	x	thissort	as.matrix	attr	class	c	import_psSort	grid	gather	as_tibble	return	names	make.names	library	dplyr	qdat	reduce	left_join	item_order	value	rownames	colnames	as.integer	storage.mode
+correlations	cors	cor	qdat	q.corrplot
+paran	qparan	q.nfactors	qdat
+screeplot	qparan	screeplot
+eigenvals	kable	qparan	eigenvalues
+extraction	quartimax	qmethod	qdat
+chars	kable	quartimax	f_char	characteristics
+factor-cors	kable	quartimax	f_char	cor_zsc
+loadings	ploas	QLoas	as.matrix	quartimax	loa	plot
+r2	plot	ploas
+f1	q.scoreplot.ord	quartimax
+f2	q.scoreplot.ord	quartimax
+f3	q.scoreplot.ord	quartimax

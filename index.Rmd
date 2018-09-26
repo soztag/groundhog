@@ -295,7 +295,8 @@ qmethod::q.scoreplot.ord(results = unrot, factor = 1)  # works
 
 ### Factor 1 Lawful Good 
 
-In this segment, Factor 1, will be interpreted. 
+In this segment, Factor 1, which we dubbed Lawful Good, will be interpreted.
+Factor 1 has the highest eigenvalue and thus represents more participants than Factor 2 and 3 combined.
 In accord with Watts and Stenner, the extreme loadings will be looked at first.
 The high standard deviation, regarding rank +7 and -7, catches the eye. Participants who exemplify Factor 1 couldnt agree on the two poles.
 The highest correlation could be found for "lottery" at rank +7 and "killing" at rank -7.
@@ -326,10 +327,12 @@ Even though they placed "insider trading" high, Factor 1 in general is averse to
 It is to be presumed that the general populace is not aware that mere insider trading is a crime by law.
 Factor 1 placed it high because of the possibility to transfer the monetary gain outside the timeloop and to change the real timeline.
 
-Even though they placed the item "sexual fantaies" and "ask sex" high, they placed "cheating" low.
+At the same time they placed the item "sexual fantaies" and "ask sex" high, while placing "cheating" low.
 This could indicate that they are either single, sexually frustrated in regards to their relationship or that they placed "cheating" low because each participant knew his/her instructor and a form of social censoring took place.
 
-The standard deviation of item placement is lowest in the neutral ranking spectrum. In accord with the above mentioned instructions, participants were told that the items place in the center are items they don't care about or they don't understand. 
+The standard deviation of item placement is lowest in the neutral ranking spectrum.
+This indicates a very similar sorting by all the Factor 1 assigned participants.
+In accord with the above mentioned instructions, participants were told that the items place in the center are items they don't care about or they don't understand. 
 
 Factor 1 placed the item "pretendsoelse" universally on the zero ranking.
 This could indicate that Factor 1 feels generally good about themselves.
@@ -345,7 +348,7 @@ The item "quitq" was generally met with confusion and thus placed on the -1 rank
 
 Factor 1 is a generally moral and law abiding person, that is deeply rooted in its social environment.
 They want to rebel against the estabslishment, but only in a social-sanctioned frame.
-They are more fearful then Factor 2 and 3 and more focused on improving their life outside the timeloop. 
+They focus on financial stability following the groundhog event.
 
 ### Factor 2 True neutral
 
@@ -403,6 +406,7 @@ This can also be due to them being single or rather because of social censoring 
 Factor 2 seems to see the timeloop as chance rather than a threat and wants to make the most out of it. 
 They pursue knowledge for the sake of knowledge and act under the mantra of 
 "the end justifies the means"
+They want to break free but in the certainty that everything will be reversed without them having to face the consequences of their actions. 
 
 ### Factor 3 Chaotic neutral
 
@@ -424,7 +428,7 @@ Their negative rankings imply that they would not indulge in criminal activities
 
 In regard to the items placed on the neutral spectrum of the ranking,
 they are confident in their identity,
-they don't care about joining a cult (0) or pretending to be someone else (0). 
+they are indifferent about joining a cult (0) or pretending to be someone else (0). 
 
 Just like the other two Factors, they placed "quitq" at a neutral ranking (0), which can also be ascribed to the nature of the item itself.
 
@@ -438,12 +442,13 @@ At the same time Factor 3 doesn't want to pay their bills (+3).
 If one was to devise a pattern for Factor 3 it would be highly focused on the respective persons whim.
 Factor 3 is not as focused on monetary gain, but rather on sexual freedom.
 They approve of random actions (+5), highly approve of sleeping (+5) and at the same time don't really know what they want.
-
+Factor 3 embodies impulsiveness.
 
 ## Conclusion
 
 When I enlisted for this seminar I was unabled to imagine what Q-Methodology really meant.
 I put it aside as a standard qualitative methodology and at first couldn't quite grasp what it is about.
+This conclusion was mainly based on the missing knowledge towards the statistical notions working in the background of a q-sort.
 In hindsight, I do have to say that my first impression was wrong.
 
 The approach of confrontating participants with cards instead of multiple pieces of paper with written question was really different and interesting.
@@ -451,16 +456,16 @@ All my participants were sceptical beforehand but after engaging in a q-sort sta
 They may have not talked as much as i would have liked,
 but the statements they gave were insightful.
 People didn't just place the items so they could get it over with,
-but were really thinkful about the different rankings and often times switched the cards around. 
+but were really thoughtful about the respective rankings and often times switched the cards around. 
 
 I really liked the engagement of instructor and participant and when I look at the collected data,
 I do have to agree with Brown on Stephensons Statement 
 "A methodology is not merely a technique but a profound way of approaching nature".
 
-The Factors could have been a little more diverse for my taste and maybe Factor 3 isn't really representative.
-Especially when the three Factors are compared.
+The Factors could have been a little more diverse for my taste and specifically Factor 3 isn't genuinely representative.
+Especially in comparison to the other two factors.
 
-But all in all, it was a very interesting experience and distinctive way to approach subjective behavior in a methodological way.
+All in all, it was a thought-provoking experience and distinctive way to approach subjective behavior in a methodological way.
 
 
 ## References

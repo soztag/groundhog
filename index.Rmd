@@ -233,6 +233,8 @@ Important notes for **the investigators**:
 
 [^ownsort]: This includes one sort completed by the author himself.
 
+
+
 ```{r data-import, include=FALSE, eval=FALSE}
 library(googlesheets)
 # this is the sheet
@@ -277,8 +279,63 @@ qdat[,] <- as.integer(qdat)
 storage.mode(x = qdat) <- "integer"
 ```
 
+In this section, we delve into the statistical procedure of our Q-study.
+Even though Q-Methodology resembles other qualitative research methods it´s actually quite different.
+**"This rationale exploits  Q methodology´s rather original ability to capture and tell the whole story.**
+**The same argument can also be used to separate Q methodology from almost all other methods with a first-person and/or qualitative focus.**
+**Where most methods of these types concentrate on the dissection of a viewpoint or subject matter into its pertinent sub-themes or issues, Q methodology allows the whole- and the relationships between themes-  to be seen and appreciated.**
+**In short, the holism of Q methodology is one of its most powerful selling points."** [@bookWatts2012,pp. 177]. 
+
+Three statistical procedures are used in a Q-study:
+Correlation, factor analysis and the computation of the factor scores. 
+Matrices are the key to a Q-statistical analysis.
+So the first step is to form a table with the gathered Q-sortings of the 36 participants and the 59 different Items.
+
+M=Items x People.
+
+
+R59 x 36 
 
 ### Correlations
+
+
+One of the first matrices in Q-Methodolgy shows where each Item was placed by each participant in their Q-sortings.
+It´s a rank of table containing the Q-sorters and the Q-items.
+In Q-Methodology the extremes hold the most importance, that´s why we have fewer cards in the extremes and generally, a pyramid-shaped ranking is preferred. 
+
+People who have worked on a Q-research know that most of the matrices in a Q-study are correlation matrices.
+Q-Methodology is a method who focuses mostly on the correlation and the factoring of people.
+So the consequent step is to transform the initial data matrix  into a new Matrix.
+
+M=PeoplexPeople.  
+Meaning a tabular form of R59 x 59. 
+
+In Q-methodology people are correlated with each other instead of variables.
+The individual sortings are correlated to reveal the similarities, as well as the differences, of the viewpoints on the studied topic.
+For the calculation of the correlation, we used Pearson ´s correlation coefficient formula.
+
+??xy=[(x-??x) (y-??y.)] / ??x??y 
+
+??x??y=???E[x2]-[E[x]]2 ???E[y2]-[E[y]]2
+
+??x??y=Standard deviation
+x=observed value of every Item
+??x=mean score (in Q-methodology the mean is always zero)
+
+With the tabular form, its easy to quickly have an overview on the relationship between the participants and their sortings.
+The correlation between any two traits can be determined according to the expression rA,B=(??zAzB)/n, where n is the number of persons in the sample.
+Each participant´s sorting is compared and calculated with each other´s.
+The individual sortings are correlated to reveal the similarities between the viewpoints."
+**"The higher the correlation in a positive direction, the more similar the two Qsorts;**
+**the higher the correlation in a negative direction, the more the relationship is an inverse one"** [@bookBrown1980, pp. 267]
+Focusing on the lower triangle from the correlation matrix the highest correlation in the groundhog study is a r=0.8.
+Appearing just once between the participants "Bambi" and "Leverrier". 
+A perfect positive correlation is +1.00. 
+In this case, these two participants indicate a high level of agreement.
+As seen in the matrix most of the participants don´t really correlate with each other. 
+Negative correlations are a rarity in this Q-study, with an r= -0.3
+Pearson´s r coefficient, being the highest negative number, meaning the Q-sorters didn´t disagree on a great level with each other.
+The conclusion from the correlation analysis indicates there is no significant correlation between our Q-sorters and their sorting in a groundhog situation.
 
 ```{r correlations, fig.height=11, fig.width=11, fig.cap="Pearsons Correlation Coefficient"}
 cors <- cor(x = qdat, method = "pearson")
@@ -286,7 +343,57 @@ q.corrplot(corr.matrix = cors)
 ```
 
 
+##Factor analysis
+
+Following the correlation analysis comes the third step in a Q-study, and probably the key point in Q-methodology. 
+The factor analysis.
+**"But it is rarely the case that the correlation matrix is of much interest since attention is usually on the factors to which the correlations lead:**
+**the correlation matrix is simply a necessary way station and a condition through which the data must pass on the way to revealing their factor structure.**
+**What this involves is the subject of the next section."**  [@articleBrown-1993, pp. 110)
+Significant clusters of correlations exist, which then can be factorized and described as common viewpoints, and individuals can be put into a particular factor.
+**"Factor analysis, in general, is a method for classifying variables"** [@bookBrown1980, pp.208]
+In this case it classifies people. 
+
+With the factor analysis, the sortings of each participant are compared with each other and put in a group together, forming a factor, which represents them.
+An ideal type.
+**"In Q-methodology, subjects of personality study are presented with a sample of statements bearing on their personalities;**
+**those who describe themselves in similar ways load on the same factor;**
+**classes of variates (factors) are initially presumed to reflect different types of personality"** [@bookBrown1980, pp. 96]
+The people in a factor are highly intercorrelated with each other, but they have no correlation with people in other factors.
+
+The objective of a factor analysis is to identify a group of respondents who loaded high on the same factor, showcasing that they rank-ordered the Items in a similar way. 
+To do this the correlation matrix of all Q-sorts is computed. Within this matrix, groups of respondents are identified with mutually high correlation coefficients.
+Finally, for each identified group, a composite rank-ordering of the statements is computed, which is called a factor, based on the distribution of the statements by the individual respondents defining that factor and their correlation coefficient with the factor as weight. 
+This idealized Q-sort of a factor represents the way in which a person loading 100% on that factor would have ranked the 59 statements.
+
+The uniqueness of Q-methodology is that the "scientist", thus we, has the power to control the results.
+Meaning, how many factors to retain or which rotation to use - quartimax rotation, varimax procedure or maybe a rotation by hand. 
+It leaves an openness and indeterminacy to consider which option is the most appropriate and informative. [@bookWatts2012, pp. 80]
+
 ### Factor Retention
+
+Using Principal component analysis through the statistical program software as a factor extraction method -the analysis reduces the data to a few summarizing factors- plus the scree plot, as well as the parallel analysis, suggested 3 factors to be extracted.
+
+It should be mentioned that "just because" a software did most of the work in the analytical part doesn´t mean that we were unimportant spectators/bystanders.
+We, the researchers, had to make the important decisions in this analytical procedure.
+
+In our case, we were uncertain how many factors to extract. 
+We contemplated for a long duration how many factors we wanted to be extracted and which rotation was the most practical, if the third factor would be essential in our study or if we should just continue with two factors. 
+The three factors correlated weakly with each other.
+The first two factors had a great Eigenvalue. 
+The Eigenvalue of a factor shows how much of the variance it can explain.
+A factors Eigenvalue is calculated by summing the squared loadings of all the Q-sorts of that factor.
+Factors need to have an Eigenvalue greater than 1.00.
+Meaning that a factor can explain their own value 100%.
+The third factor had a greater Eigenvalue than the average, but it was weak. 
+We discussed the advantage and disadvantages of each option, in the end, a three factor solution was deemed adequate.
+The "adequacy" of course differs from study to study, in our case, we chose with the criterion that three factors would be better and would make the factor interpretation more interesting and diverse.
+Factor 1 currently accounts for 24% of the common variance present in the study, factor 2 12% and factor 3 7%.
+A high factor EV and variance is considered good, anything in the region 35-40% and above is satisfactory.
+The three factors together explain 43% of the variance.
+So it is deemed adequate(Table "factor characteristics").
+55% of the variance is lost.
+
 
 ```{r paran, include=FALSE}
 qparan <- qmethod::q.nfactors(dataset = qdat, iterations = 10000, cutoff = 8, cor.method = "spearman", siglevel = 0.5, quietly = TRUE)
@@ -302,6 +409,15 @@ knitr::kable(x = qparan$eigenvalues, caption = "Eigenvalues from Data and Simula
 
 
 ### Factor Extraction and Quartimax Rotation
+
+Next step is the rotation.
+We used the quartimax rotation. 
+Varimax rotation didn't give us Ideal types, but rather variables. 
+The varimax rotation was the most mathematically informative solution, whereas the quartimax rotation offered more of a "groupish" character.
+Both solutions were examined in subsequent analyses before deciding to use the quartimax rotation for the final solution. 
+**"Most Q- methodologists don´t think that the best mathematical solution is necessarily also the most meaningful or most informative"** [@bookWatts2012,pp. 99) Plus the quartimax rotated factors maximized the amount of variance explained by the extracted factors. 
+We really wanted our participants to be only "one color", to load high on one factor mostly, to have a high factor score on a single factor. 
+Therefore the quartimax rotation was our best solution.
 
 ```{r extraction, include = FALSE}
 quartimax <- qmethod::qmethod(dataset = qdat, nfactors = 3, rotation = "quartimax", forced = TRUE, cor.method = "spearman", reorder = FALSE, threshold = "none", allow.confounded = TRUE)
@@ -323,6 +439,9 @@ plot(x = ploas, by = "people", use_js = FALSE)
 ```{r r2}
 plot(x = ploas, by = "people", use_js = FALSE, r2 = TRUE)
 ```
+
+
+In the next section, the three extracted factors are interpreted.
 
 
 ## Interpretation
@@ -360,5 +479,45 @@ q.scoreplot.ord(results = quartimax, factor = 3, incl.qdc = FALSE, quietly = TRU
 
 *all authors*
 
+If I had to describe Q-Methodology in one word I would call it a roller coaster ride. 
+True that's not one word, but its impossible to characterize it with a single word.
+At least concerning me.
+My experience with Q-Method started first with a quick research on the internet, which -I thought - gave me a slight taste of what I had to expect from our seminar.
+A qualitative research method to study peoples "subjectivity" on different matters used in psychology and political sciences. 
+Short and simple.
+It woke my interest further to explore this method and with a good feeling I registered for the seminar.
+
+On the first day of the class, I started having my doubts.
+A feeling similar to panic started spreading. 
+I was bombarded with so much new information, with so many new things I had to learn and comprehend first, which made me doubt my initial decision of attending the class.
+Fortunately, my panic started to slowly dissolve after being given the opportunity to complete a Q-sort myself.
+I could see the whole picture of what Q-Method is.  
+After starting our own Q-study and working together on finding a topic, as well as writing the statements made me realize that Q-Method isn`t as different as other qualitative methods. 
+The difference lies in the Q-sorting.
+Probably the most thrilling and intriguing part, I dare say for everyone.
+Observing the chosen people complete the Q-sort is an entertaining and informative experience.
+Learning the reasons and listening to their arguments on why they placed the Q-items in that specific order, as well as seeing the similarities and differences of what the participants prioritize in a groundhog situation, including the interpretation of the extracted factors made it a unique experience. 
+
+Subsequently, the fun part ended and the dreadful part began. 
+The roller coaster train came to the final and steepest drop. 
+The statistical analysis.
+I and statistics have a hate-love relationship. 
+I put time and effort into trying to understand it, but in the end, I'm left confused and frustrated.
+On the plus side, we didn't have to manually calculate anything thanks to the Q-software. 
+However, I chose to write the statistical analysis segment. 
+The truth is with this choice I wanted to challenge myself and "face my fears".
+Interestingly enough, I enjoyed writing it and I can actually say that I learned many things from all this process.
+I just hope that in the end, it won't backfire on me.
+
+That was my "emotional" roller coaster with  Q-methodology.
+I experienced its ups and downs, the anticipating parts and the dreadful moments.  
+In the end, all this process gave me so much enjoyment and satisfaction that I definitely want to experience it again, but be better prepared and less fearful.  
+
+
+
+
+
 
 ## References
+
+

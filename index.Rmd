@@ -298,14 +298,16 @@ qmethod::q.scoreplot.ord(results = unrot, factor = 1)  # works
 In this segment, Factor 1, which we dubbed Lawful Good, will be interpreted.
 Factor 1 has the highest eigenvalue and thus represents more participants than Factor 2 and 3 combined.
 In accord with Watts and Stenner, the extreme loadings will be looked at first.
-The high standard deviation, regarding rank +7 and -7, catches the eye. Participants who exemplify Factor 1 couldnt agree on the two poles.
+The high standard deviation, regarding rank +7 and -7, catches the eye.
+Participants who exemplify Factor 1 couldnt agree on the two poles.
 The highest correlation could be found for "lottery" at rank +7 and "killing" at rank -7.
 
-These two poles alone, don't really allow any sort of thorough interpretation, but when one is looking at the whole sort, a picture starts to emerge:
+These two poles alone, don't really allow any sort of thorough interpretation,
+but when one is looking at the whole sort, a picture starts to emerge:
 
-Factor 1 placed items of monetary gain, withouth immersing in any sort of active/violent crimes, and of transfering consequence to the real timeline very high.
+Factor 1 placed items of monetary gain, withouth engaging in any sort of active/violent crimes, and of consequence to the real timeline, very high.
 They placed the items "lottery", "insider trading" and "expensive travel" all on pole positions within the sort.
-But the item "rob bank" is placed on the negative side.
+Only the item "rob bank" is placed on the negative side of the ranking.
 This supports the interpretation that Factor 1 is rather moral and legal abiding. 
 
 They are focused on self-improvement like "me time", "improve myself" but at the same time want to experience new things like "restaurants" and "sexual fantasies"
@@ -315,11 +317,12 @@ All these items have in common, that they are a mild sort of rebellion against s
 The key factor is the word "mild".
 If they truly wanted to forego social or moral conventions they would place items like "destruction" or "burn state" high, but they focused on interpersonal acts like "true opinion" or "confess".
 This assumption is especially confirmed by participants through statements in regard to the item "true opinion".
-A few participants commented when prompted why they placed it so high, that they wouldnt tell people their true opinions about them in the "real timeline" because of fear for repurcussions but because they wouldn't want to hurt peoples feelings.
+A few participants commented, when prompted why they placed it so high, that they wouldnt tell people their true opinions about them in the "real timeline" not out of fear for repurcussions but because they wouldn't want to hurt peoples feelings.
 
 When looked at the negative-ranking site of the sort another interesting pattern emerges.
 All of the items which have any sort of connection to harming someone else, or oneself, are placed low.
-Factor 1 is not curious about the afterlife, or anything death related. Factor in general is more focused on themselves then on others.
+Factor 1 is not curious about the afterlife, or anything death related.
+Factor in general is more focused on themselves then on others.
 They don't want to indulge in any form of violence, be it vandalism ("grand theft auto", "burn state", "graffiti") or physical.
 They also all placed the item "kidnapping" very low and if prompted participants were very aggravated about the wording of the item.
 
@@ -458,7 +461,7 @@ but the statements they gave were insightful.
 People didn't just place the items so they could get it over with,
 but were really thoughtful about the respective rankings and often times switched the cards around. 
 
-I really liked the engagement of instructor and participant and when I look at the collected data,
+I really liked the engagement of instructor and participant and when looking at the collected data,
 I do have to agree with Brown on Stephensons Statement 
 "A methodology is not merely a technique but a profound way of approaching nature".
 

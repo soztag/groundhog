@@ -45,9 +45,25 @@ library(purrr)
 
 ## Introduction
 
-## Item Generation
+## Method
 
-### Q-Distribution
+
+### Item Generation: Selection and Source of items   
+  
+As Stephenson suggests in his publication ‘Q methodology and the projective techniques’, a Q set *“may be composed of objects, statements, descriptions and behavior, traits, and the like” (1952: 223)*, hence there are many options of what can be used as an item. In our study we decided to select items that verbalize actions and therefore *behavior regarding our conceptualized scenario.*
+In regard to this definition, we conceived items ourselves based on our own ingenuity with inspiration from the movie “The Groundhog Day”, researches on the internet platform Reddit on topics that seem alike, and asking friends and family.  
+Whereas the “Groundhog Day” was our first source of inspiration, as it pictures quiet the similar mind game, Reddit was our main internet source, as it is a universally known and used website to find actions or reaction to certain sequences of events, whether fictional or non-fictional. The vast and various community ensures good items in term of *coverage and balance*, moreover it provides suggestion to other similar topics, that helped us forming the definite research question and plot.  
+Gathering additive ideas among acquaintances firstly confirmed items, we had already gathered, which were supposed to be broadly representative of the opinion of the general population (Watts and Stenner 2012: 58) and secondly also had the aim to get a feeling for whether our repository of items covered enough ground within our concept or adding different ideas and propositions would be necessary to generate a balanced set of statements that allows participants of all persuasions to express their feelings equally (Baker et al. 170 f.).  
+  
+  
+### Demographics and Selection of Participants  
+  
+Giving the nature of Q method, representing an inversion of the traditional R methodology, in which the Q set, therefore the items, constitutes the study sample and each participant becomes a variable, the recruitment should always be done carefully regarding the research question and whether the viewpoint of these people matters in relation to the subject (Watts and Stenner 2012: 70 f.). However, in our case study, we were not regimented by our topic, as it was universally appealing and we did not have any concepts of a *”particularly interesting or pivotal point of view”* (ibid.).
+We had 36 participants, which were selected from 5 different set of acquaintances via opportunity sampling, while we still tried to frame the sampling as assorted as possible. 
+Most of the people of the participant group were students from university or school, however from different disciplines.
+The age of the participants ranges from 55 to 15, with an average age of 25,2 and a median of 22.5.
+Almost the same number of females and males were asked, from which 16 stated to be engaged or in a relationship in the time of participating in the study.
+
 
 ```{r include = FALSE}
 distro <- qmethod::make.distribution(nstat = 59, max.bin = 7)
@@ -56,7 +72,19 @@ names(distro) <- -7:7
 grid <- pensieve::as_psGrid(obj = distro, pattern = "chessboard")
 ```
 
-### Plotting Items
+
+### Experiences in the field  
+  
+Doing this study as a first encounter with Q Method, there were various things to take into consideration and be mindful of, especially while supervising the procedure of the sorting that only later occurs to one as important and useful, while interpreting the factors, e.g. certain question that should have been asked or things that should have been put an emphasize on while instructing the participants. Details, one cannot think of, when not having enough practical experiences.
+Nevertheless, elaborated prework, as pre-sorting personal information that might influence the participants’ viewpoints  might ease the path for a substantial interpretation (Watts and Stenner 2012: 75).  
+During the pre-sorts of the items into the three piles (*“Items you disagree with”*, *“Items you do not understand or are ambivalent about”*, *“Items you agree with”*), the neutral pile was reportedly the biggest, with the remainder equally split, which might suggest, that our items were balanced.
+Nonetheless, as some respondents noted that some items were similar, especially on the sex related questions, it should be taken into consideration, whether the balance of the items, could be dependent on the age of the participants, because especially older and younger participants, noted that there were too many sex-related questions.
+Even if that was the case, it is still not ensured, whether there were in fact top many questions regarding sexuality or it was more of an act of social desirability for participant to comment on that, as it might defuse the awkwardness of sorting these items under observation. 
+Even though many people already complained about the number of items (our number of 59 items were in the average of the recommended number by Stephenson), most of the participants were, nonetheless, highly interested in the method itself, because by ranking the items and actually placing the cards, they were actively more involved, than for example in an one-to-one interview. This can be explained by what Professor O.J. Harvey from the University of Colorado describes as “one of psychology’s most basic and well established principles” ( 1997: 146 f.), which Watts and Stenner describe as our desire to see structure within, and to ascribe meaning to almost every stimuli and event (2012: 66). 
+Furthermore, the participants were eager to explain their choices, while this can be, again, affiliated to social desirability it also could be ingénue interest on the topic, showing that our study is entitled.  
+Regarding the correlation between members of a certain peer groups, even though they seem to agree on many items as expected, they do not necessarily have the same motivation behind it.
+One might say: Just because some people placed the same item on the same ranking, it does not mean they have the same motivation in doing so and agree with each other on a moral code.  
+In contrast to that, partners in a relationship, however, seem also to have similarities concerning non-sex- or relationship-related items in their sorting, even though relationship status, reportedly, forms the sorting concerning sex-related items such as: cheating, marrying, sexual fantasies, asking someone to have sex. 
 
 ```{r, eval=FALSE, include=FALSE}
 items <- readr::read_csv(file = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSkT1N44FpPcqAcAp1eChsHI0jlw-F0gqB7w1Sl4ksd6q3vNAoBbkjrx0rjlYc_7hhJiZ0uHvmxKRon/pub?gid=0&single=true&output=csv")
@@ -111,6 +139,8 @@ qmethod::make.cards(
 
 
 ## Field Work
+
+
 
 Participants were given the following prompt:
 

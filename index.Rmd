@@ -270,7 +270,7 @@ gs_read(ss = groundhog_entry, ws = "Item Feedback", range = "C1:R60", col_names 
 all_ws <- gs_ws_ls(groundhog_entry)
 parts <- all_ws[!(all_ws %in% c("input_helper", "input-template", "Item Feedback"))]
 walk(.x = parts, .f = function(x) {
-  gs_read(ss = groundhog_entry, ws = x, range = c("A3:O9"), col_names = as.character(-7:7), na = c("#N/A")) %>% 
+  gs_read(ss = groundhog_entry, ws = x, range = c("A3:O9"), col_names = as.character(-7:7), na = c("#N/A"), col_types = cols(.default = "c")) %>% 
     write_csv(path = fs::path("rawdat", "sorts", x, ext = "csv"), append = FALSE, col_names = TRUE)
 })
 ```
@@ -282,13 +282,27 @@ filenames <- fs::dir_ls(rootsorts, recursive = FALSE, all = FALSE, type = "file"
 persons <- fs::path_file(filenames)
 persons <- fs::path_ext_remove(persons)
 rawdat <- purrr::map(.x = persons, .f = function(x) {
-  cat(x)
   path <- fs::path(rootsorts, x, ext = "csv")
   thissort <- readr::read_csv(file = path, col_names = TRUE)
   thissort <- as.matrix(thissort)
+  thissort <- apply(X = thissort, MARGIN = c(1,2), FUN = function(x) {
+    if (is.na(x)) {
+      return(NA)
+    } else {
+      keyloc <- which(lookup == "12123", arr.ind = TRUE)
+      if (length(keyloc) == 0) {
+        keyloc <- which(
+          x = stringr::str_detect(string = as.matrix(lookup), pattern = x),
+          arr.ind = TRUE
+        )
+        keyloc <- arrayInd(ind = keyloc, .dim = dim(x = as.matrix(lookup)))
+      }
+      lookup$handle[keyloc[1,1]]
+    }
+  })
   # TODO hackfix
   attr(thissort, "pattern") <- "chessboard"
-  class(thissort) <- c("psSort", "matrix")
+  class(thissort) <- c("matrix")
   thissort <- pensieve::import_psSort(x = thissort, grid = grid, lookup = lookup)
   thissort <- tidyr::gather(tibble::as_tibble(thissort), na.rm = TRUE)
   return(thissort)

@@ -280,11 +280,11 @@ storage.mode(x = qdat) <- "integer"
 ```
 
 In this section, we delve into the statistical procedure of our Q-study.
-Even though Q-Methodology resembles other qualitative research methods it´s actually quite different.
-**"This rationale exploits  Q methodology´s rather original ability to capture and tell the whole story.**
-**The same argument can also be used to separate Q methodology from almost all other methods with a first-person and/or qualitative focus.**
-**Where most methods of these types concentrate on the dissection of a viewpoint or subject matter into its pertinent sub-themes or issues, Q methodology allows the whole- and the relationships between themes-  to be seen and appreciated.**
-**In short, the holism of Q methodology is one of its most powerful selling points."** [@bookWatts2012,pp. 177]. 
+Even though Q-Methodology resembles other qualitative research methods it?s actually quite different.
+*"This rationale exploits  Q methodology?s rather original ability to capture and tell the whole story.*
+*The same argument can also be used to separate Q methodology from almost all other methods with a first-person and/or qualitative focus.*
+*Where most methods of these types concentrate on the dissection of a viewpoint or subject matter into its pertinent sub-themes or issues, Q methodology allows the whole- and the relationships between themes-  to be seen and appreciated.*
+*In short, the holism of Q methodology is one of its most powerful selling points."* [@bookWatts2012,pp. 177]. 
 
 Three statistical procedures are used in a Q-study:
 Correlation, factor analysis and the computation of the factor scores. 
@@ -300,8 +300,8 @@ R59 x 36
 
 
 One of the first matrices in Q-Methodolgy shows where each Item was placed by each participant in their Q-sortings.
-It´s a rank of table containing the Q-sorters and the Q-items.
-In Q-Methodology the extremes hold the most importance, that´s why we have fewer cards in the extremes and generally, a pyramid-shaped ranking is preferred. 
+It?s a rank of table containing the Q-sorters and the Q-items.
+In Q-Methodology the extremes hold the most importance, that?s why we have fewer cards in the extremes and generally, a pyramid-shaped ranking is preferred. 
 
 People who have worked on a Q-research know that most of the matrices in a Q-study are correlation matrices.
 Q-Methodology is a method who focuses mostly on the correlation and the factoring of people.
@@ -312,7 +312,7 @@ Meaning a tabular form of R59 x 59.
 
 In Q-methodology people are correlated with each other instead of variables.
 The individual sortings are correlated to reveal the similarities, as well as the differences, of the viewpoints on the studied topic.
-For the calculation of the correlation, we used Pearson ´s correlation coefficient formula.
+For the calculation of the correlation, we used Pearson ?s correlation coefficient formula.
 
 ??xy=[(x-??x) (y-??y.)] / ??x??y 
 
@@ -324,17 +324,17 @@ x=observed value of every Item
 
 With the tabular form, its easy to quickly have an overview on the relationship between the participants and their sortings.
 The correlation between any two traits can be determined according to the expression rA,B=(??zAzB)/n, where n is the number of persons in the sample.
-Each participant´s sorting is compared and calculated with each other´s.
+Each participant?s sorting is compared and calculated with each other?s.
 The individual sortings are correlated to reveal the similarities between the viewpoints."
-**"The higher the correlation in a positive direction, the more similar the two Qsorts;**
-**the higher the correlation in a negative direction, the more the relationship is an inverse one"** [@bookBrown1980, pp. 267]
+*"The higher the correlation in a positive direction, the more similar the two Qsorts;*
+*the higher the correlation in a negative direction, the more the relationship is an inverse one"* [@bookBrown1980, pp. 267]
 Focusing on the lower triangle from the correlation matrix the highest correlation in the groundhog study is a r=0.8.
 Appearing just once between the participants "Bambi" and "Leverrier". 
 A perfect positive correlation is +1.00. 
 In this case, these two participants indicate a high level of agreement.
-As seen in the matrix most of the participants don´t really correlate with each other. 
+As seen in the matrix most of the participants don?t really correlate with each other. 
 Negative correlations are a rarity in this Q-study, with an r= -0.3
-Pearson´s r coefficient, being the highest negative number, meaning the Q-sorters didn´t disagree on a great level with each other.
+Pearson?s r coefficient, being the highest negative number, meaning the Q-sorters didn?t disagree on a great level with each other.
 The conclusion from the correlation analysis indicates there is no significant correlation between our Q-sorters and their sorting in a groundhog situation.
 
 ```{r correlations, fig.height=11, fig.width=11, fig.cap="Pearsons Correlation Coefficient"}
@@ -347,18 +347,18 @@ q.corrplot(corr.matrix = cors)
 
 Following the correlation analysis comes the third step in a Q-study, and probably the key point in Q-methodology. 
 The factor analysis.
-**"But it is rarely the case that the correlation matrix is of much interest since attention is usually on the factors to which the correlations lead:**
-**the correlation matrix is simply a necessary way station and a condition through which the data must pass on the way to revealing their factor structure.**
-**What this involves is the subject of the next section."**  [@articleBrown-1993, pp. 110)
+*"But it is rarely the case that the correlation matrix is of much interest since attention is usually on the factors to which the correlations lead:*
+*the correlation matrix is simply a necessary way station and a condition through which the data must pass on the way to revealing their factor structure.*
+*What this involves is the subject of the next section."*  [@articleBrown-1993, pp. 110)
 Significant clusters of correlations exist, which then can be factorized and described as common viewpoints, and individuals can be put into a particular factor.
-**"Factor analysis, in general, is a method for classifying variables"** [@bookBrown1980, pp.208]
+*"Factor analysis, in general, is a method for classifying variables"*[@bookBrown1980, pp.208]
 In this case it classifies people. 
 
 With the factor analysis, the sortings of each participant are compared with each other and put in a group together, forming a factor, which represents them.
 An ideal type.
-**"In Q-methodology, subjects of personality study are presented with a sample of statements bearing on their personalities;**
-**those who describe themselves in similar ways load on the same factor;**
-**classes of variates (factors) are initially presumed to reflect different types of personality"** [@bookBrown1980, pp. 96]
+*"In Q-methodology, subjects of personality study are presented with a sample of statements bearing on their personalities;*
+*those who describe themselves in similar ways load on the same factor;*
+*classes of variates (factors) are initially presumed to reflect different types of personality"* [@bookBrown1980, pp. 96]
 The people in a factor are highly intercorrelated with each other, but they have no correlation with people in other factors.
 
 The objective of a factor analysis is to identify a group of respondents who loaded high on the same factor, showcasing that they rank-ordered the Items in a similar way. 
@@ -374,7 +374,7 @@ It leaves an openness and indeterminacy to consider which option is the most app
 
 Using Principal component analysis through the statistical program software as a factor extraction method -the analysis reduces the data to a few summarizing factors- plus the scree plot, as well as the parallel analysis, suggested 3 factors to be extracted.
 
-It should be mentioned that "just because" a software did most of the work in the analytical part doesn´t mean that we were unimportant spectators/bystanders.
+It should be mentioned that "just because" a software did most of the work in the analytical part doesn?t mean that we were unimportant spectators/bystanders.
 We, the researchers, had to make the important decisions in this analytical procedure.
 
 In our case, we were uncertain how many factors to extract. 
@@ -415,7 +415,7 @@ We used the quartimax rotation.
 Varimax rotation didn't give us Ideal types, but rather variables. 
 The varimax rotation was the most mathematically informative solution, whereas the quartimax rotation offered more of a "groupish" character.
 Both solutions were examined in subsequent analyses before deciding to use the quartimax rotation for the final solution. 
-**"Most Q- methodologists don´t think that the best mathematical solution is necessarily also the most meaningful or most informative"** [@bookWatts2012,pp. 99) Plus the quartimax rotated factors maximized the amount of variance explained by the extracted factors. 
+*"Most Q- methodologists don?t think that the best mathematical solution is necessarily also the most meaningful or most informative"*[@bookWatts2012,pp. 99) Plus the quartimax rotated factors maximized the amount of variance explained by the extracted factors. 
 We really wanted our participants to be only "one color", to load high on one factor mostly, to have a high factor score on a single factor. 
 Therefore the quartimax rotation was our best solution.
 
@@ -519,5 +519,39 @@ In the end, all this process gave me so much enjoyment and satisfaction that I d
 
 
 ## References
+
+
+@book{Brown1980,
+  address = {New Haven, CT},
+  title = {Political {{Subjectivity}}: {{Applications}} of {{Q Methodology}} in {{Political Science}}},
+  isbn = {0-300-02363-4},
+  publisher = {{Yale University Press}},
+  author = {Brown, Steven R.},
+  year = {1980},
+  keywords = {Values,Rating-1,Q-Methodology,Political Psychology,Methodology},
+  file = {/Users/max/Zotero/storage/BKD6H7ST/Brown-1980-Pol.pdf},
+  bdsk-url-1 = {http://www.amazon.com/Political-Subjectivity-Applications-Methodology-Science/dp/0300023634}
+
+
+@article{Brown-1993,
+  title = {The {{Structure}} and {{Form}} of {{Subjectivity}} in {{Political Theory}} and {{Behavior}}},
+  volume = {17},
+  number = {1-2},
+  journal = {Operant Subjectivity},
+  author = {Brown, Steven R.},
+  year = {1993},
+  keywords = {Rating-4,Q-Methodology,Economics},
+  file = {/Users/max/Zotero/storage/3VMDFQN4/Brown-1993-The.pdf},
+  
+
+@book{Watts2012,
+  address = {Thousand Oaks, CA},
+  title = {Doing {{Q Methodological Research}}: {{Theory}}, {{Method}} \& {{Interpretation}}},
+  publisher = {{Sage Publications}},
+  author = {Watts, Simon and Stenner, Paul},
+  year = {2012},
+  keywords = {Q-Methodology},
+  file = {/Users/max/Zotero/storage/MSR3ANLT/Watts_Stenner-2012-Doi.pdf},
+  source = {Google Play; Kindle}
 
 

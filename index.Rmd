@@ -45,7 +45,7 @@ library(purrr)
 
 ## Introduction
 
-## Method
+## Methods
 
 
 ### Item Generation: Selection and Source of items   

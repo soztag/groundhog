@@ -30,7 +30,7 @@ editor_options:
   </sub></small></p>
 </div>
 
-```{r, child="README.rmd"}
+```{r, child="README.md"}
 ```
 
 ```{r setup, include = FALSE, cache = FALSE}

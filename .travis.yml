@@ -1,24 +1,20 @@
-# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
-
 language: r
-
 warnings_are_errors: false
-
 cache:
   packages: true
-
 script:
-  - Rscript -e "rmarkdown::render_site()"
-
+- Rscript -e "rmarkdown::render_site()"
+after_success:
+- curl -OL http://raw.githubusercontent.com/soztag/fau_deploy/master/deploy2karli.sh
 deploy:
-  provider: pages
+- provider: script
   skip_cleanup: true
-  local-dir: _site/
-  github-token: $GITHUB_TOKEN
-  committer-from-gh: true
-  keep-history: true
+  script:
+  - bash deploy2karli.sh
   on:
     branch: master
-
 notifications:
   email: false
+before_deploy:
+- openssl aes-256-cbc -K $encrypted_cb4077956e51_key -iv $encrypted_cb4077956e51_iv
+  -in karli_rsa.enc -out /tmp/karli_rsa -d

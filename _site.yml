@@ -15,7 +15,7 @@ navbar:
     - text: Nuremberg Campus of Technology
       href: https://www.ncatec.de
     - text: Course Website
-      href: https://soztag.github.io/qdelib/
+      href: https://datascience.phil.fau.de/qdelib/
   - icon: fa-github
     href: https://github.com/soztag/groundhog
 output:
@@ -29,4 +29,3 @@ output:
     lib_dir: site_libs
     self_contained: no
 output_dir: _site
-

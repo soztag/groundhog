@@ -534,7 +534,7 @@ In the next section, the three extracted factors are interpreted.
 
 ### Factor 1: Lawful Good 
 
-```{r f1, warning = FALSE, fig.width=11, fig.cap="Binned Scores for Factor 1"}
+```{r f1, warning = FALSE, fig.width=11, fig.cap="Binned Scores for Factor 1", eval=FALSE}
 q.scoreplot.ord(results = quartimax, factor = 1, incl.qdc = FALSE, quietly = TRUE)
 ```
 
@@ -599,7 +599,7 @@ They focus on financial stability following the groundhog event.
 
 ### Factor 2: True neutral
 
-```{r f2, warning = FALSE, fig.width=11, fig.cap="Binned Scores for Factor 2"}
+```{r f2, warning = FALSE, fig.width=11, fig.cap="Binned Scores for Factor 2", eval=FALSE}
 q.scoreplot.ord(results = quartimax, factor = 2, incl.qdc = FALSE, quietly = TRUE)
 ```
 
@@ -662,7 +662,7 @@ They want to break free but in the certainty that everything will be reversed wi
 
 ### Factor 3: Chaotic Neutral
 
-```{r f3, warning = FALSE, fig.width=11, fig.cap="Binned Scores for Factor 3"}
+```{r f3, warning = FALSE, fig.width=11, fig.cap="Binned Scores for Factor 3", eval=FALSE}
 q.scoreplot.ord(results = quartimax, factor = 3, incl.qdc = FALSE, quietly = TRUE)
 ```
 

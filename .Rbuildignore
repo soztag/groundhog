@@ -1,3 +1,4 @@
 ^\.github$
 ^\.travis\.yml$
 ^\.httr-oauth$
+^\.github/workflows$

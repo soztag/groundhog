@@ -14,8 +14,8 @@ Language: en
 LazyData: true
 Imports: 
     printr,
-    pensieve (>= 0.0.0.9022),
-    qmethod (>= 1.5.9003)
+    pensieve,
+    qmethod
 Remotes:  
     maxheld83/pensieve@c2aefce3c9f7b501a52a99d865451394dca35fb0,
     maxheld83/qmethod@d85ad649f09a591b9468b8b236d26e8ec6f66cda

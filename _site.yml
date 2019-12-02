@@ -28,4 +28,5 @@ output:
     fig_caption: yes
     lib_dir: site_libs
     self_contained: no
+    md_extensions: -markdown_in_html_blocks+raw_html
 output_dir: _site
